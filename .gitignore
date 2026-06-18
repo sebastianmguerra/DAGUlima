@@ -1,0 +1,20 @@
+# Dependencias
+node_modules/
+
+# Mac OS
+.DS_Store
+
+# Entornos virtuales de Python (si se usaran scripts de extracción)
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# IDEs y Editores
+.vscode/
+.idea/
+
+# Archivos temporales o de prueba
+scratch/
+*.log
