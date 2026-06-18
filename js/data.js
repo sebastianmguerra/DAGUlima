@@ -790,13 +790,12 @@ const CAREERS_DATA = {
         "type": "O",
         "credits": 5,
         "reqs": [
-          "510014",
-          "IND_011"
+          "510014"
         ]
       },
       {
-        "id": "IND_001",
-        "name": "Systems",
+        "id": "560038",
+        "name": "Sistemas Organizacionales / Organizational Systems",
         "level": 3,
         "type": "O",
         "credits": 2,
@@ -857,7 +856,7 @@ const CAREERS_DATA = {
         "type": "O",
         "credits": 3,
         "reqs": [
-          "IND_001"
+          "560038"
         ]
       },
       {
@@ -923,7 +922,7 @@ const CAREERS_DATA = {
       },
       {
         "id": "IND_002",
-        "name": "Operations and Logistics Fundamentals",
+        "name": "Fundamentos de Operaciones y Logística",
         "level": 5,
         "type": "O",
         "credits": 4,
@@ -1287,6 +1286,14 @@ const CAREERS_DATA = {
         "reqs": []
       },
       {
+        "id": "IND_011",
+        "name": "Organizacional",
+        "level": 11,
+        "type": "E",
+        "credits": 3,
+        "reqs": []
+      },
+      {
         "id": "5665",
         "name": "Taller de Habilidades Gerenciales",
         "level": 11,
@@ -1318,14 +1325,7 @@ const CAREERS_DATA = {
         "credits": 3,
         "reqs": []
       },
-      {
-        "id": "IND_012",
-        "name": "de Datos",
-        "level": 11,
-        "type": "E",
-        "credits": 3,
-        "reqs": []
-      },
+
       {
         "id": "560083",
         "name": "Estrategia de Inteligencia Empresarial",
@@ -1454,14 +1454,7 @@ const CAREERS_DATA = {
         "credits": 3,
         "reqs": []
       },
-      {
-        "id": "IND_013",
-        "name": "Workshop",
-        "level": 11,
-        "type": "E",
-        "credits": 3,
-        "reqs": []
-      },
+
       {
         "id": "560097",
         "name": "Ingeniería del Transporte y Distribución",

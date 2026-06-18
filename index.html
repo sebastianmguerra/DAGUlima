@@ -12,7 +12,7 @@
   <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <div class="app-container">
@@ -27,6 +27,7 @@
               <option value="industrial">Ingeniería Industrial</option>
               <option value="economia">Economía</option>
               <option value="comunicacion">Comunicación</option>
+              <option value="arquitectura">Arquitectura</option>
             </select>
           </div>
         </div>
@@ -134,8 +135,8 @@
           <button class="action-btn" id="btn-fit" title="Centrar Grafo">
             <i data-lucide="minimize-2"></i> Centrar
           </button>
-          <button class="action-btn" id="btn-physics" title="Pausar Físicas">
-            <i data-lucide="play" id="physics-icon"></i> Estabilizar
+          <button class="action-btn" id="btn-lock" title="Bloquear Nodos">
+            <i data-lucide="unlock" id="lock-icon"></i> <span id="lock-text">Nodos: Móviles</span>
           </button>
         </div>
       </div>
@@ -161,8 +162,8 @@
     </main>
   </div>
 
-  <!-- Data and Application Code -->
-  <script src="data.js"></script>
-  <script src="app.js"></script>
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>

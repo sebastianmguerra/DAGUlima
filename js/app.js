@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const postreqCountBadge = document.getElementById('postreq-count');
   const postreqList = document.getElementById('postreq-list');
   const btnFit = document.getElementById('btn-fit');
-  const btnPhysics = document.getElementById('btn-physics');
+  const btnLock = document.getElementById('btn-lock');
   const btnElectivos = document.getElementById('btn-electivos');
   const btnLayout = document.getElementById('btn-layout');
   const careerSelector = document.getElementById('career-selector');
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let network = null;
   let nodesDataSet = new vis.DataSet();
   let edgesDataSet = new vis.DataSet();
-  let physicsEnabled = true;
+  let nodesLocked = false;
   let showElectivos = true;
   let isHierarchical = true; // Default to cycle grid
   
@@ -82,7 +82,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function getOptions() {
     return {
-      interaction: { hover: true, selectConnectedEdges: false, tooltipDelay: 200 },
+      interaction: { 
+        hover: true, 
+        selectConnectedEdges: false, 
+        tooltipDelay: 200,
+        dragNodes: !nodesLocked,
+        dragView: true,
+        zoomView: true
+      },
       layout: {
         hierarchical: isHierarchical ? {
           enabled: true,
@@ -94,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } : false
       },
       physics: {
-        enabled: physicsEnabled,
+        enabled: !nodesLocked,
         solver: 'barnesHut',
         hierarchicalRepulsion: {
           centralGravity: 0.0,
@@ -150,8 +157,19 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
 
+    let electivesCount = 0;
+    const MAX_ELECTIVES_PER_COLUMN = 12;
+
     initialNodes = currentCoursesData.map(c => {
-      const level = c.level;
+      let level = c.level;
+      
+      // Split electives into multiple columns (levels) so they aren't one huge column
+      if (c.type === 'E') {
+        const columnOffset = Math.floor(electivesCount / MAX_ELECTIVES_PER_COLUMN);
+        level = 11 + columnOffset;
+        electivesCount++;
+      }
+
       const baseBorderColor = getBaseBorderColor(c);
 
       return {
@@ -472,17 +490,24 @@ document.addEventListener('DOMContentLoaded', () => {
     if(network) network.fit({ animation: { duration: 800 } });
   });
 
-  btnPhysics.addEventListener('click', () => {
-    togglePhysics(!physicsEnabled);
+  btnLock.addEventListener('click', () => {
+    toggleLock(!nodesLocked);
   });
 
-  function togglePhysics(enable) {
-    physicsEnabled = enable;
-    if(network) network.setOptions({ physics: { enabled: enable } });
-    if (enable) {
-      btnPhysics.innerHTML = '<i data-lucide="pause"></i> Fijar Posiciones';
+  function toggleLock(locked) {
+    nodesLocked = locked;
+    if(network) network.setOptions(getOptions());
+    const lockIcon = document.getElementById('lock-icon');
+    const lockText = document.getElementById('lock-text');
+
+    if (locked) {
+      lockText.textContent = 'Nodos: Fijos';
+      lockIcon.setAttribute('data-lucide', 'lock');
+      btnLock.classList.add('toggle-active');
     } else {
-      btnPhysics.innerHTML = '<i data-lucide="play"></i> Estabilizar';
+      lockText.textContent = 'Nodos: Móviles';
+      lockIcon.setAttribute('data-lucide', 'unlock');
+      btnLock.classList.remove('toggle-active');
     }
     lucide.createIcons();
   }

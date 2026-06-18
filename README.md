@@ -24,9 +24,11 @@ Este proyecto es una aplicación web interactiva diseñada para visualizar las m
 ```text
 /
 ├── index.html     # Estructura principal de la aplicación y panel de control.
-├── styles.css     # Estilos globales, Glassmorphism, animaciones y diseño responsivo.
-├── app.js         # Lógica de la aplicación: configuración de Vis.js, eventos y filtros.
-├── data.js        # Base de datos local (JSON puro) con todas las carreras y prerrequisitos.
+├── css/
+│   └── styles.css # Estilos globales, Glassmorphism, animaciones y diseño responsivo.
+├── js/
+│   ├── app.js     # Lógica de la aplicación: configuración de Vis.js, eventos y filtros.
+│   └── data.js    # Base de datos local (JSON puro) con todas las carreras y prerrequisitos.
 └── README.md      # Este documento.
 ```
 
