@@ -30,9 +30,16 @@ Este proyecto es una aplicación web interactiva diseñada para visualizar las m
 └── README.md      # Este documento.
 ```
 
-## Instalación y Ejecución
+## Despliegue y Ejecución
 
-Al ser un proyecto estático construido con Vanilla JS, no requiere un proceso de compilación complejo (build step).
+El proyecto cuenta con dos métodos principales de visualización:
+
+### 1. Despliegue Web (En Vivo)
+Puedes acceder a la versión más reciente y desplegada del proyecto directamente desde cualquier navegador, sin necesidad de instalación previa, mediante el siguiente enlace alojado en Vercel:
+🌍 **[https://dag-ulima.vercel.app/](https://dag-ulima.vercel.app/)**
+
+### 2. Ejecución Local (Desarrollo)
+Al ser un proyecto estático construido con Vanilla JS, no requiere un proceso de compilación complejo (build step). Sigue estos pasos para correr el servidor local:
 
 1. **Clonar el repositorio:**
    ```bash
@@ -41,7 +48,7 @@ Al ser un proyecto estático construido con Vanilla JS, no requiere un proceso d
    ```
 
 2. **Ejecutar un servidor local:**
-   Debido a políticas de seguridad del navegador para la carga dinámica o fuentes locales (CORS), es recomendable servir los archivos mediante un servidor HTTP local.
+   Debido a políticas de seguridad del navegador para la carga dinámica de módulos locales (CORS), es recomendable servir los archivos mediante un servidor HTTP básico.
    
    Usando Python:
    ```bash
@@ -53,7 +60,7 @@ Al ser un proyecto estático construido con Vanilla JS, no requiere un proceso d
    ```
 
 3. **Abrir en el navegador:**
-   Navega a `http://localhost:8000` para visualizar la aplicación.
+   Navega a `http://localhost:8000` para visualizar la aplicación y probar cambios en tu entorno local.
 
 ## Personalización de Datos
 
