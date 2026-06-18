@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grafo de Plan de Estudios | Ingeniería de Sistemas 2026-1</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Vis.js Network CDN -->
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <header class="sidebar-header">
+        <div class="logo">
+          <i data-lucide="network" class="logo-icon"></i>
+          <div class="header-text">
+            <select id="career-selector" class="career-select">
+              <option value="sistemas">Ingeniería de Sistemas</option>
+              <option value="industrial">Ingeniería Industrial</option>
+              <option value="economia">Economía</option>
+              <option value="comunicacion">Comunicación</option>
+            </select>
+          </div>
+        </div>
+      </header>
+
+      <!-- Search and Filter Section -->
+      <section class="controls-section">
+        <div class="search-box">
+          <i data-lucide="search" class="search-icon"></i>
+          <input type="text" id="course-search" placeholder="Buscar asignatura por nombre o código...">
+        </div>
+
+        <div class="filter-group">
+          <label>Filtrar por Ciclo / Nivel</label>
+          <div class="level-selector" id="level-selector">
+            <button class="level-btn active" data-level="all">Todo</button>
+            <button class="level-btn" data-level="1">1</button>
+            <button class="level-btn" data-level="2">2</button>
+            <button class="level-btn" data-level="3">3</button>
+            <button class="level-btn" data-level="4">4</button>
+            <button class="level-btn" data-level="5">5</button>
+            <button class="level-btn" data-level="6">6</button>
+            <button class="level-btn" data-level="7">7</button>
+            <button class="level-btn" data-level="8">8</button>
+            <button class="level-btn" data-level="9">9</button>
+            <button class="level-btn" data-level="10">10</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Detail Card -->
+      <section class="detail-card-container">
+        <div class="detail-placeholder" id="detail-placeholder">
+          <i data-lucide="info" class="placeholder-icon"></i>
+          <p>Selecciona un curso en el grafo para ver sus prerrequisitos, créditos y detalles de avance.</p>
+        </div>
+        <div class="detail-card hidden" id="detail-card">
+          <div class="detail-header">
+            <span class="detail-tag" id="detail-level">Nivel 1</span>
+            <span class="detail-code" id="detail-code">COD: 510003</span>
+          </div>
+          <h2 class="detail-title" id="detail-title">LENGUAJE Y COMUNICACIÓN I</h2>
+          
+          <div class="detail-stats">
+            <div class="stat-item">
+              <span class="stat-val" id="detail-credits">4</span>
+              <span class="stat-lbl">Créditos</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-val" id="detail-type">Obligatorio</span>
+              <span class="stat-lbl">Tipo</span>
+            </div>
+          </div>
+
+          <div class="detail-relations">
+            <div class="relation-section">
+              <h3>Prerrequisitos <span class="badge badge-req" id="prereq-count">0</span></h3>
+              <div class="relation-list" id="prereq-list">
+                <!-- Dinámico -->
+              </div>
+            </div>
+            <div class="relation-section">
+              <h3>Desbloquea a <span class="badge badge-post" id="postreq-count">0</span></h3>
+              <div class="relation-list" id="postreq-list">
+                <!-- Dinámico -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Summary Stats -->
+      <footer class="sidebar-footer">
+        <div class="global-stats">
+          <div class="global-stat">
+            <span class="global-stat-label">Obligatorios</span>
+            <span class="global-stat-val">52</span>
+          </div>
+          <div class="global-stat">
+            <span class="global-stat-label">Electivos</span>
+            <span class="global-stat-val">22</span>
+          </div>
+          <div class="global-stat">
+            <span class="global-stat-label">Total Créditos</span>
+            <span class="global-stat-val">205</span>
+          </div>
+        </div>
+      </footer>
+    </aside>
+
+    <!-- Main Graph Canvas -->
+    <main class="canvas-area">
+      <div class="canvas-header">
+        <div class="header-titles">
+          <h2 id="main-title">Grafo de Correlaciones Curriculares</h2>
+          <p>Los nodos están ordenados por columnas representando cada ciclo académico del plan respectivo</p>
+        </div>
+        <div class="canvas-actions">
+          <button class="action-btn" id="btn-layout" title="Cambiar Diseño">
+            <i data-lucide="layout-grid" id="layout-icon"></i> <span id="layout-text">Diseño: Ciclos</span>
+          </button>
+          <button class="action-btn toggle-active" id="btn-electivos" title="Mostrar/Ocultar Electivos">
+            <i data-lucide="bookmark"></i> Electivos
+          </button>
+          <button class="action-btn" id="btn-fit" title="Centrar Grafo">
+            <i data-lucide="minimize-2"></i> Centrar
+          </button>
+          <button class="action-btn" id="btn-physics" title="Pausar Físicas">
+            <i data-lucide="play" id="physics-icon"></i> Estabilizar
+          </button>
+        </div>
+      </div>
+      <div id="network-container"></div>
+      <div class="legend">
+        <div class="legend-item">
+          <span class="legend-color color-eg"></span>
+          <span>Estudios Generales (Nivel 1-2)</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-color color-ob"></span>
+          <span>Carrera Obligatorio (Nivel 3-10)</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-color color-el"></span>
+          <span>Electivo</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-arrow">➔</span>
+          <span>Flujo de Prerrequisitos</span>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Data and Application Code -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
