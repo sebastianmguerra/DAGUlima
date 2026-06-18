@@ -1,0 +1,162 @@
+Total pages: 5
+
+--- PAGE 1 ---
+ 
+ 
+Facultad de Ciencias Empresariales y Económicas 
+Carrera de Marketing 
+ 
+Plan de estudios 2025-1 
+ 
+Nivel 1 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+510001 Globalización y Realidad Nacional O 3 2 2 4 P  
+6506 Lenguaje y Comunicación I O 4 4 2 6 P   
+6508 Metodologías de Investigación O 3 2 2 4 P  
+6505 Desarrollo Personal y Social O 3 2 2 4 P  
+6382 Matemática Básica O 5 4 2 6 P  
+510002 Ética Cívica O 2 0 2 2 P  
+TOTAL DE CRÉDITOS OBLIGATORIOS 20 
+ 
+Nivel 2 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+6510 Economía y Empresa O 3 2 2 4 P  
+6511 Lenguaje y Comunicación II O 3 2  2 4 P Lenguaje y Comunicación I  
+6512 Procesos Sociales y Políticos O 3 2 2 4 P  
+6513 Temas de Filosofía O 3 2 2 4 P  
+6502 Estadística Básica para los Negocios O 3 2 2 4 P Matemática Básica 
+6337 Matemática Aplicada a los Negocios O 5 4 2 6 P Matemática Básica 
+TOTAL DE CRÉDITOS OBLIGATORIOS 20 
+ 
+  
+
+--- PAGE 2 ---
+ 
+ 
+Nivel 3 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+520002 Estadística Empresarial I O 4 3 2 5 P Estadística Básica para los Negocios 
+4123 Contabilidad General O 4 3 2 5 P Matemática Aplicada a los Negocios 
+520500 Antropología del Consumidor O 3 3 0 3 P Temas de Filosofía 
+520503 Introducción a las Finanzas O 3 2 2 4 P Matemática Aplicada a los Negocios 
+3232 Matemática para la Gestión de Negocios O 4 3 2 5 P Matemática Aplicada a los Negocios 
+520004 Herramientas Informáticas para la Gestión I O 3 2 2 4 P Economía y Empresa 
+TOTAL DE CRÉDITOS OBLIGATORIOS 21 
+ 
+Nivel 4 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+4384 Costos y Presupuestos O 4 3 2 5 P Contabilidad General 
+ Sociología del Consumidor O 3 2 2 4 P Antropología del Consumidor 
+ Procesos de Marketing O 3 2 2 4 P Antropología del Consumidor 
+520006 Estadística Empresarial II O 4 3 2 5 P Estadística Empresarial I 
+ Administración Empresarial y Marketing O 3 2 2 4 P Economía y Empresa 
+3326 Microeconomía / Microeconomics O 3 2 2 4 P Economía y Empresa 
+520007 Herramientas Informáticas para la Gestión II E 3 2 2 4 P Herramientas Informáticas para la Gestión I 
+TOTAL DE CRÉDITOS OBLIGATORIOS 20 
+ 
+ 
+  
+
+--- PAGE 3 ---
+ 
+ 
+Nivel 5 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+520501 Estadística Aplicada al Marketing O 4 3 2 5 P Estadística Empresarial II 
+ Consumidor y Experiencia del Cliente / Customer Experience O 3 2 2 4 P Sociología del Consumidor 
+4125 
+  Elaboración de Estados Financieros  O 3  2  2  4  P Costos y Presupuestos 
+Introducción a las Finanzas 
+2447 Administración de Canales de Distribución O 3 2 2 4 P Procesos de Marketing 
+2443 Gestión de Producto y Marca O 4 3 2 5 P Procesos de Marketing 
+3325 Macroeconomía / Macroeconomics O 3 2 2 4 P Microeconomía / Microeconomics 
+TOTAL DE CRÉDITOS OBLIGATORIOS 20 
+ 
+Nivel 6 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+2448 Política y Fijación de Precios O 3 2 2 4 P Macroeconomía / Macroeconomics 
+2454 Operaciones Logísticas de Marketing O 3 2 2 4 P Administración de Canales de Distribución 
+2333 Investigación Cuantitativa de Mercados O 3 2 2 4 P Estadística Aplicada al Marketing 
+2444 Publicidad y Medios O 3 2 2 4 P Gestión de Producto y Marca 
+520503 Branding O 3 2 2 4 P Gestión de Producto y Marca 
+2332 Investigación Cualitativa de Mercados O 3 2 2 4 P Consumidor y Experiencia del Cliente / Customer 
+Experience 
+ Ciencia de Datos Aplicado al Marketing O 2 1 2 3 P Estadística Aplicada al Marketing 
+TOTAL DE CRÉDITOS OBLIGATORIOS 20 
+ 
+ 
+  
+
+--- PAGE 4 ---
+ 
+ 
+Nivel 7 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+ Dirección Estratégica de Marketing O 4 4 0 4 P Investigación Cuantitativa de Mercados 
+2450 Finanzas para Marketing O 4 3 2 5 P Elaboración de Estados Financieros 
+2460 Marketing Social O 3 2 2 4 P Investigación Cuantitativa de Mercados 
+2455 Comunicación e Imagen Corporativa O 3 2 2 4 P Publicidad y Medios 
+ Transformación Digital y Marketing O 3 2 2 4 P Publicidad y Medios 
+ Endomarketing y Gestión de Personas O 3 2 2 4 P Administración Empresarial y Marketing 
+2343 Neuromarketing E 3 2 2 4 P Investigación Cuantitativa de Mercados 
+4164 Promoción y Marketing BTL E 3 2 2 4 P Política y Fijación de Precios 
+520504 Diseño de la Propuesta de Valor E 3 3 0 3 P Gestión de Producto y Marca 
+ Métricas de Marketing E 3 3 0 3 P Política y Fijación de Precios 
+ Metodologías Ágiles en Marketing E 3 3 0 3 P Herramientas Informáticas para la Gestión I 
+TOTAL DE CRÉDITOS OBLIGATORIOS 20 
+ 
+Nivel 8 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+2419 Gerencia de Ventas O 4 4 0 4 P Operaciones Logísticas de Marketing 
+520022 Ética y Sostenibilidad Empresarial / Ethics and Business 
+Sustainability O 3 2 2 4 P Endomarketing y Gestión de Personas 
+4165 Herramientas Estratégicas de Negocios y Marketing O 4 3 2 5 P Dirección Estratégica de Marketing 
+2336 Métodos y Técnicas de Evaluación de Proyectos O 4 3 2 5 P Finanzas para Marketing 
+520506 E-Commerce O 3 2 2 4 P Transformación Digital y Marketing 
+3161 Inteligencia Comercial E 3 2 2 4 P Dirección Estratégica de Marketing 
+2475 Taller de Investigación de Mercados E 3 2 2 4 P Investigación Cuantitativa de Mercados 
+520509 Marketing Mobile E 3 3 0 3 P Transformación Digital y Marketing 
+520510 Simulación de Decisiones de Marketing E 3 3 0 3 P Dirección Estratégica de Marketing 
+4166 Gerencia de Marketing Deportivo E 3 2 2 4 P Marketing Social 
+TOTAL DE CRÉDITOS OBLIGATORIOS 18 
+ 
+ 
+  
+
+--- PAGE 5 ---
+ 
+ 
+Nivel 9 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+2338 Trade Marketing y Merchandising O 3 2 2 4 P Gerencia de Ventas 
+520507 Marketing de Servicios O 3 2 2 4 P Marketing Social 
+520512 Seminario de Investigación en Marketing I O 3 2 2 4 V Herramientas Estratégicas de Negocios y Marketing 
+520513 Analítica de Datos O 3 2 2 4 P Transformación Digital y Marketing 
+2457 Negociación Comercial O 3 2 2 4 P Comunicación e Imagen Corporativa 
+520514 Marketing Personal E 3 3 0 3 P Marketing Social 
+520515 Taller de Inbound Marketing E 3 3 0 3 P Transformación Digital y Marketing 
+2340 Marketing de Retailers E 3 2 2 4 P Herramientas Estratégicas de Negocios y Marketing 
+ Marketing y Ventas B2b E 3 3 0 3 P Branding 
+ Emprendimientos de Marketing 5.0 E 3 3 0 3 P E-Commerce 
+ Patrocinio de Marcas y Sponsoring E 3 3 0 3 P Marketing de Servicios 
+TOTAL DE CRÉDITOS OBLIGATORIOS 15 
+ 
+Nivel 10 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+520516 Seminario de Investigación en Marketing II O 4 3 2 5 V Seminario de Investigación en Marketing I 
+ Estrategias de Marketing Internacional O 3 2 2 4 P Trade Marketing y Merchandising 
+ Estrategia de Relacionamiento y Fidelización O 4 4 0 4 P Herramientas Estratégicas de Negocios y Marketing 
+520511 Plan de Marketing O 3 2 2 4 P Métodos y Técnicas de Evaluación de Proyectos 
+520517 Planeamiento Estratégico Publicitario O 3 2 2 4 P Publicidad y Medios 
+2341 Marketing de Centros Comerciales e Hipermercados E 3 3 0 3 P Gerencia de Ventas 
+2342 Marketing en la Base de la Pirámide E 3 3 0 3 P Métodos y Técnicas de Evaluación de Proyectos 
+TOTAL DE CRÉDITOS OBLIGATORIOS 17 
+ 
+ 
+Resumen de créditos de egreso CRED 
+Estudios Generales 40 
+Asignaturas obligatorias 151 
+Asignaturas electivas 18 
+Total de créditos 209 
+ 
+

@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let network = null;
   let nodesDataSet = new vis.DataSet();
   let edgesDataSet = new vis.DataSet();
-  let nodesLocked = false;
+  let nodesLocked = true;
   let showElectivos = true;
   let isHierarchical = true; // Default to cycle grid
   
@@ -175,6 +175,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return {
         id: c.id,
         label: wrapText(c.name, 25),
+        title: c.name,
         level: level, // Used by hierarchical layout
         shape: 'box',
         hidden: false,

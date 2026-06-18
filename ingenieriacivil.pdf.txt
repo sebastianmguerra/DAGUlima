@@ -1,0 +1,180 @@
+Total pages: 6
+
+--- PAGE 1 ---
+Facultad de Ingeniería 
+Carrera de Ingeniería Civil 
+ 
+Plan de estudios 2026-1 
+ 
+Nivel 1 
+COD ASIGNATURA TA CRED NAT HORAS MOD REQUISITO TEO PRA TOT 
+ 510003 Lenguaje y Comunicación I O 4 TEO-PRA 2 4 6 P ---------------  
+ 510006 Procesos Psicológicos O 3 TEO-PRA 2 2 4 P --------------- 
+ 510007 Ética Ciudadana O 2 TEO 2 0 2 P --------------- 
+ 510005 Introducción a la Ingeniería O 3 TEO-PRA 2 2 4 P --------------- 
+ 6508 Metodologías de Investigación O 3 TEO-PRA 2 2 4 P --------------- 
+ 510014 Precálculo O 5 TEO-PRA 4 2 6 P --------------- 
+TOTAL DE CRÉDITOS OBLIGATORIOS 20       
+ 
+Nivel 2 
+COD ASIGNATURA TA CRED NAT HORAS MOD REQUISITO TEO PRA TOT 
+ 6505 Lenguaje y Comunicación II O 3 TEO-PRA 2 2 4 P Lenguaje y Comunicación I 
+510010 Filosofía Aplicada O 3 TEO-PRA 2 2 4 P --------------- 
+ 510015 Fundamentos de Economía O 3 TEO-PRA 2 2 4 P --------------- 
+ 510011 Introducción al Comercio Internacional O 3 TEO-PRA 2 2 4 P --------------- 
+ 6384 Álgebra Lineal O 3 TEO-PRA 2 2 4 P Precálculo 
+ 6503 Cálculo I O 5 TEO-PRA 4 2 6 P Precálculo 
+TOTAL DE CRÉDITOS OBLIGATORIOS 20       
+   
+
+--- PAGE 2 ---
+ 
+Nivel 3 
+COD ASIGNATURA TA CRED NAT HORAS MOD REQUISITO TEO PRA TOT 
+1459 Cálculo II O 4 TEO-PRA 3 2 5 P Cálculo I 
+710042 Topografía O 3 TEO-PRA 2 2 4 P ---------------------- 
+710081 Probabilidad y Estadística Aplicada O 3 TEO-PRA 2 2 4 P Cálculo I 
+710072 Ingeniería Gráfica O 3 TEO-PRA 2 2 4 P ---------------------- 
+710085 Química Aplicada O 3 TEO-PRA 2 2 4 P ---------------------- 
+1472 Física I O 4 TEO-PRA 3 2 5 P Álgebra Lineal 
+560040 Inteligencia Artificial Aplicada O 3 TEO-PRA 2 2 4 P ---------------------- 
+TOTAL DE CRÉDITOS OBLIGATORIOS 23       
+  
+Nivel 4 
+COD ASIGNATURA TA CRED NAT HORAS MOD REQUISITO TEO PRA TOT 
+710086 Tecnología de Construcción I O 4 TEO-PRA 3 2 5 P ---------------------- 
+710087 Geología Aplicada O 4 TEO-PRA 3 2 5 P Topografía 
+710073 Modelación de Información de Edificaciones I O 4 TEO-PRA 3 2 5 P Ingeniería Gráfica 
+710088 Física II O 4 TEO-PRA 3 2 5 P Física I 
+710051 Ecuaciones Diferenciales O 4 TEO-PRA 3 2 5 P Cálculo II 
+710010 Tecnología del Concreto O 3 TEO-PRA 2 2 4 P Química Aplicada 
+TOTAL DE CRÉDITOS OBLIGATORIOS 23       
+ 
+ 
+ 
+  
+
+--- PAGE 3 ---
+Nivel 5 
+COD ASIGNATURA TA CRED NAT HORAS MOD REQUISITO TEO PRA TOT 
+710006 Programación Digital O 3 TEO-PRA 2 2 4 P Probabilidad y Estadística Aplicada 
+710014 Mecánica de Suelos I O 4 TEO-PRA 3 2 5 P Geología Aplicada 
+710011 Dinámica O 4 TEO-PRA 3 2 5 P Ecuaciones Diferenciales 
+710074 Modelación de Información de Edificaciones II O 4 TEO-PRA 3 2 5 P Modelación de Información de Edificaciones 
+I 
+710009 Estática O 4 TEO-PRA 3 2 5 P Física I 
+710089 Tecnología de Construcción II O 4 TEO-PRA 3 2 5 P Tecnología de Construcción I 
+TOTAL DE CRÉDITOS OBLIGATORIOS 23       
+ 
+Nivel 6 
+COD ASIGNATURA TA CRED NAT HORAS MOD REQUISITO TEO PRA TOT 
+710053 Ingeniería Ambiental O 3 TEO-PRA 2 2 4 P Tecnología de Construcción II 
+710019 Mecánica de Suelos II O 4 TEO-PRA 3 2 5 P Mecánica de Suelos I 
+710090 Tecnología de los Materiales O 3 TEO-PRA 2 2 4 P Tecnología del Concreto 
+710091 Instalaciones en Edificaciones O 5 TEO-PRA 4 2 6 P 
+Modelación de Información de Edificaciones 
+II 
+Física II 
+710092 Resistencia de Materiales O 5 TEO-PRA 4 2 6 P Estática 
+710093 Costos y Presupuestos O 3 TEO-PRA 2 2 4 P Tecnología de Construcción I 
+TOTAL DE CRÉDITOS OBLIGATORIOS 23       
+ 
+ 
+ 
+ 
+  
+
+--- PAGE 4 ---
+Nivel 7 
+COD ASIGNATURA TA CRED NAT HORAS MOD REQUISITO TEO PRA TOT 
+710016 Mecánica de Fluidos O 4 TEO-PRA 3 2 5 P Dinámica 
+710094 Gestión de Proyectos de Construcción O 4 TEO-PRA 3 2 5 P Costos y Presupuestos 
+710024 Ingeniería de Transporte I O 3 TEO-PRA 2 2 4 P Mecánica de Suelos II 
+710095 Fundamentos del Planeamiento Urbano y 
+Regional O 3 TEO-PRA 2 2 4 P Tecnología de Construcción II 
+710026 Análisis Estructural I O 4 TEO-PRA 3 2 5 P Resistencia de Materiales 
+710096 Ética, Liderazgo y Responsabilidad Social O 2 TEO-PRA 1 2 3 P 120 Créditos Aprobados 
+710045 Métodos Numéricos O 3 TEO-PRA 2 2 4 P Programación Digital 
+TOTAL DE CRÉDITOS OBLIGATORIOS 23       
+ 
+Nivel 8 
+COD ASIGNATURA TA CRED NAT HORAS MOD REQUISITO TEO PRA TOT 
+710059 Hidráulica O 4 TEO-PRA 3 2 5 P Mecánica de Fluidos 
+710047 Gestión de Proyectos de Operación y 
+Mantenimiento O 3 TEO-PRA 2 2 4 P Gestión de Proyectos de Construcción 
+710078 Gestión Estratégica de Contratos O 3 TEO-PRA 2 2 4 P Gestión de Proyectos de Construcción 
+710060 Concreto Armado I O 4 TEO-PRA 3 2 5 P Resistencia de Materiales 
+710031 Ingeniería Sismorresistente O 4 TEO-PRA 3 2 5 P Análisis Estructural I 
+ Electivo 1 E 3 - - - - P ------------- 
+TOTAL DE CRÉDITOS OBLIGATORIOS 18       
+ 
+ 
+ 
+  
+
+--- PAGE 5 ---
+Nivel 9 
+COD ASIGNATURA TA CRED NAT HORAS MOD REQUISITO TEO PRA TOT 
+710027 Hidrología O 4 TEO-PRA 3 2 5 P Hidráulica 
+710028 Seminario De Investigación I O 4 SEM INV 3 2 5 SP 160 Créditos Aprobados 
+ Electivo 2 E 3 - - - - P ------------- 
+ Electivo 3 E 3 - - - - P ------------- 
+TOTAL DE CRÉDITOS OBLIGATORIOS 8       
+ 
+Nivel 10 
+COD ASIGNATURA TA CRED NAT HORAS MOD REQUISITO TEO PRA TOT 
+710036 Seminario de Investigación II O 4 SEM INV 3 2 5 SP SEMINARIO DE INVESTIGACIÓN I 
+710099 Estructuras Metálicas O 5 TEO-PRA 4 2 6 P ANÁLISIS ESTRUCTURAL I 
+ Electivo 4 E 3 - - - - P ------------- 
+ Electivo 5 E 3 - - - - P ------------- 
+TOTAL DE CRÉDITOS OBLIGATORIOS 9       
+ 
+ 
+ 
+ 
+Resumen de créditos de egreso CRED 
+Estudios Generales 40 
+Asignaturas obligatorias 150 
+Asignaturas electivas 15 
+Total de créditos 205 
+ 
+ 
+  
+
+--- PAGE 6 ---
+ASIGNATURAS ELECTIVAS  
+ 
+Nivel 8 
+COD ASIGNATURA TA CRED NAT HORAS MOD REQUISITO TEO PRA TOT 
+710083 Gestión de Calidad E 3 TEO-PRA 2 2 4 P 130 Créditos Aprobados 
+710097 Diseño y Construcción Virtual E 3 TEO-PRA 2 2 4 P Gestión de Proyectos de Construcción 
+710034 Análisis Estructural II E 3 TEO-PRA 2 2 4 P Análisis Estructural I 
+710082 Geomática E 3 TEO-PRA 2 2 4 P 130 Créditos Aprobados 
+ 
+Nivel 9 
+COD ASIGNATURA TA CRED NAT HORAS MOD REQUISITO TEO PRA TOT 
+710046 Gestión de Seguridad y Salud en el Trabajo E 3 TEO-PRA 2 2 4 P 150 Créditos Aprobados 
+710065 Concreto Armado II E 3 TEO-PRA 2 2 4 P Concreto Armado I 
+710066 Concreto Preesforzado E 3 TEO-PRA 2 2 4 P Concreto Armado I 
+710021 Abastecimiento de Agua y Saneamiento E 3 TEO-PRA 2 2 4 P Hidráulica 
+710039 Puentes E 3 TEO-PRA 2 2 4 P Concreto Armado I 
+710048 Túneles E 3 TEO-PRA 2 2 4 P 150 Créditos Aprobados 
+710079 Gestión de Riesgos de Desastres E 3 TEO-PRA 2 2 4 P Fundamentos del Planeamiento Urbano y 
+Regional 
+710084 Geotecnia en Infraestructura de Transporte E 3 TEO-PRA 2 2 4 P Ingeniería de Transporte I 
+710098 Productividad en Obras E 3 TEO-PRA 2 2 4 P Gestión de Proyectos de Construcción 
+ 
+Nivel 10 
+COD ASIGNATURA TA CRED NAT HORAS MOD REQUISITO TEO PRA TOT 
+710101 Ingeniería de los Recursos Hidráulicos E 3 TEO-PRA 2 2 4 P Hidrología 
+710100 Albañilería E 3 TEO-PRA 2 2 4 P 170 Créditos Aprobados 
+710070 Gestión y Desarrollo Inmobiliario E 3 TEO-PRA 2 2 4 P 170 Créditos Aprobados 
+710080 Gestión de Riesgos en Proyectos E 3 TEO-PRA 2 2 4 P 170 Créditos Aprobados 
+710102 Ingeniería de Transporte II E 3 TEO-PRA 2 2 4 P Ingeniería de Transporte I 
+710069 Infraestructuras Sostenibles E 3 TEO-PRA 2 2 4 P Gestión de Proyectos de Operación y 
+Mantenimiento 
+710064 Pavimentos E 3 TEO-PRA 2 2 4 P Ingeniería de Transporte I 
+520074 Seguridad, Salud Ocupacional y Bienestar 
+Organizacional E 3 TEO-PRA 2 2 4 P 170 Créditos Aprobados 
+ 
+

@@ -1,0 +1,171 @@
+Total pages: 6
+
+--- PAGE 1 ---
+ 
+ 
+Facultad de Ingeniería 
+Carrera de Ingeniería Mecatrónica 
+ 
+Plan de estudios 2025-1 
+ 
+Nivel 1 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+510003 Lenguaje y Comunicación I O 4 2 4 6 Presencial ------------ 
+510005 Introducción a la Ingeniería O 3 2 2 4 Presencial ------------ 
+6505 Desarrollo Personal y Social O 3 2 2 4 Presencial ------------ 
+6508 Metodologías de la Investigación O 3 2 2 4 Presencial ------------ 
+510004 Ética Cívica O 2 2 0 2 Presencial ------------ 
+6382 Matemática Básica O 5 4 2 6  Presencial ------------ 
+TOTAL DE CRÉDITOS OBLIGATORIOS 20 
+ 
+Nivel 2 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+6511 Lenguaje y Comunicación II O 3 2 2 4  Presencial Lenguaje y Comunicación I 
+6512 Procesos Sociales y Políticos O 3 2 2 4  Presencial ------------ 
+6384 Álgebra Lineal O 3 2 2 4  Presencial Matemática Básica 
+6510 Economía y Empresa O 3 2 2 4  Presencial ------------ 
+6513 Temas de Filosofía O 3 2 2 4  Presencial ------------ 
+6503 Cálculo I O 5 4 2 6   Presencial Matemática Básica 
+TOTAL DE CRÉDITOS OBLIGATORIOS 20 
+ 
+  
+
+--- PAGE 2 ---
+ 
+ 
+Nivel 3 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+560040 Inteligencia Artificial Aplicada O 3 2 2 4 Presencial --------------- 
+1459   Cálculo II O 5 5 0 5 Presencial Cálculo I 
+ Circuitos Digitales O 4 3 2 5 Presencial Algebra Lineal 
+1472 Física I O 4 3 2 5 Presencial Cálculo I 
+560048 Sistemas Organizacionales / Organizational Systems O 2 1 2 3 Presencial Economía Y Empresa 
+ Dibujo Mecánico O 4 4 0 4  Presencial Algebra Lineal 
+TOTAL DE CRÉDITOS OBLIGATORIOS 22 
+ 
+Nivel 4 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+710051 Ecuaciones Diferenciales O 4 3 2 5 Presencial  Cálculo II 
+560046   Estadística Y Probabilidad O 4 4 0 4 Presencial  Cálculo II 
+ Circuitos Eléctricos O 4 3 2 5 Presencial Circuitos Digitales 
+ Física II O 4 3 2 5 Presencial Física I 
+ Fundamentos De Máquinas Y Mecanismos O 3 3 0 3 Presencial Dibujo Mecánico 
+5643 Química General O 4 3 2 5  Presencial ------------------- 
+TOTAL DE CRÉDITOS OBLIGATORIOS 23 
+ 
+ 
+  
+
+--- PAGE 3 ---
+ 
+ 
+Nivel 5 
+ 
+Nivel 6 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+ Análisis de Señales y Sistemas O 4 4 0 4 Presencial Análisis Complejo y Transformadas 
+ Tecnología de Materiales e Innovación O 3 2 2 4 Presencial Ingeniería de Resistencia de Materiales  
+ Control de Sistemas Dinámicos I O 4 4 0 4 Presencial Análisis Complejo y Transformadas 
+ Ingeniería de Fluidos y Calor O 3 2 2 4 Presencial Mecánica Aplicada 
+ Desarrollo de Competencias Gerenciales O 3 2 2 4 Presencial ------------------------- 
+ Microcontroladores O 3 2 2 4  Presencial Programación de Computadoras 
+ Sensores y Actuadores Inteligentes O 3 2 2 4 Presencial Circuitos Eléctricos 
+TOTAL DE CRÉDITOS OBLIGATORIOS 23 
+ 
+ 
+  
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+ Análisis Complejo y Transformadas O 4 4 0 4 Presencial Ecuaciones Diferenciales 
+  Costos y Presupuestos O 3 3 0 3 Presencial Sistemas Organizacionales / Organizational 
+Systems  
+ Programación de Computadoras O 3 3 0 3 Presencial Inteligencia Artificial Aplicada 
+ Mecánica Aplicada O 4 4 0 4 Presencial Física II 
+ Ingeniería de Resistencia de Materiales O 4 3 2 5 Presencial Física II 
+ Circuitos Electrónicos O 4 3 2 5  Presencial Circuitos Eléctricos 
+TOTAL DE CRÉDITOS OBLIGATORIOS 22 
+
+--- PAGE 4 ---
+ 
+ 
+Nivel 7 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+ Diseño y Manufactura Asistida Por Computador O 3 2 2 4 Presencial 125 Créditos Aprobados 
+  Máquinas Eléctricas O 3 2 2 4 Presencial 125 Créditos Aprobados  
+ Aprendizaje de Máquinas / Machine Learning O 3 3 0 3 Presencial 125 Créditos Aprobados 
+ Sistemas Embebidos e Iot Industrial O 4 3 2 5 Presencial 125 Créditos Aprobados 
+ Control de Sistemas Dinámicos Ii O 4 3 2 5 Presencial Control De Sistemas Dinámicos I 
+ Formulación y Evaluación de Proyectos O 3 2 2 4  Presencial 125 Créditos Aprobados 
+ Electivo I E 3 3 0 3 Presencial 120 Créditos Aprobados 
+TOTAL DE CRÉDITOS OBLIGATORIOS 20 
+ 
+Nivel 8 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+ Diseño de Sistemas Mecatrónicos O 4 4 0 4 Presencial 148 Créditos Aprobados 
+  Proyecto de Investigación O 4 4 0 4 Presencial 148 Créditos Aprobados 
+ Control de Procesos Industriales O 3 2 2 4 Presencial 148 Créditos Aprobados 
+ Manufactura Integrada por Computadora O 4 3 2 5 Presencial 148 Créditos Aprobados 
+ Procesamiento Digital de Imágenes O 4 4 0 4 Presencial 148 Créditos Aprobados 
+ Electivo II E 3 2 2 4  Presencial 120 Créditos Aprobados 
+TOTAL DE CRÉDITOS OBLIGATORIOS 19 
+ 
+ 
+  
+
+--- PAGE 5 ---
+ 
+ 
+Nivel 9 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+ Diseño de Plantas Industriales O 4 4 0 4 Presencial 170 Créditos Aprobados 
+  Proyecto Integrador de Mecatrónica I O 4 2 4 6 Presencial Proyecto de Investigación 
+ Gestión de Proyectos O 3 2 2 3 Presencial 170 Créditos Aprobados 
+ Electivo III E 3 2 2 2 Presencial 140 Créditos Aprobados 
+ Electivo IV E 3 2 2 2 Presencial 140 Créditos Aprobados 
+TOTAL DE CRÉDITOS OBLIGATORIOS 11 
+ 
+Nivel 10 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+ Sistemas Robóticos Industriales O 3 2 2 4 Presencial 185 Aprobados 
+  Proyecto Integrador de Mecatrónica II O 4 2 4 6 Presencial Proyecto Integrador de Mecatrónica I  
+ Electivo V E 3 2 2 2 Presencial 160 Créditos Aprobados 
+ Electivo VI E 3 2 2 2 Presencial 160 Créditos Aprobados 
+TOTAL DE CRÉDITOS OBLIGATORIOS 7 
+ 
+ 
+Resumen de créditos de egreso CRED 
+Estudios Generales 40 
+Asignaturas obligatorias 147 
+Asignaturas electivas 18 
+Total de créditos 205 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- PAGE 6 ---
+ 
+ 
+Asignaturas electivas 
+ 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+ Sistemas Neumáticos E 3 2 2 2 Presencial 120 Créditos Aprobados 
+  Big Data E 3 2 2 2 Presencial 120 Créditos Aprobados 
+ Gestión de Proyectos de Diseño E 3 2 2 2 Presencial 120 Créditos Aprobados 
+ Redes y Protocolos Industriales E 3 2 2 2 Presencial 140 Créditos Aprobados 
+ Ciber Seguridad E 3 2 2 2 Presencial 140 Créditos Aprobados 
+ Tecnología Industrial E 3 2 2 2  Presencial 140 Créditos Aprobados 
+ Sistemas Autónomos no Tripulados E 3 2 2 2 Presencial 160 Créditos Aprobados 
+ Diseño y Fabricación de Grippers E 3 2 2 2 Presencial 160 Créditos Aprobados 
+ Sistemas Scada E 3 2 2 2 Presencial 160 Créditos Aprobados 
+ Visión Artificial para Robótica E 3 2 2 2 Presencial 160 Créditos Aprobados 
+ Realidad Virtual y Aumentada E 3 2 2 2 Presencial 160 Créditos Aprobados 
+ Digital Twin E 3 2 2 2  Presencial 160 Créditos Aprobados 
+ Transformación Digital E 3 2 2 2 Presencial 160 Créditos Aprobados 
+ Diseño y Prototipado E 3 2 2 2 Presencial 160 Créditos Aprobados 
+ Tecnologías de Programación  E 3 2 2 2 Presencial 160 Créditos Aprobados 
+ Diseño de Proyectos Sostenibles E 3 2 2 2 Presencial 160 Créditos Aprobados 
+ 
+

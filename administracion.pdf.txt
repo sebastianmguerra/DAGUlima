@@ -1,0 +1,164 @@
+Total pages: 5
+
+--- PAGE 1 ---
+ 
+ 
+Facultad de Ciencias Empresariales y Económicas 
+Carrera de Administración 
+ 
+Plan de estudios 2025-2 
+ 
+Nivel 3 
+COD Asignatura TA MOD CRED Horas Requisito TEO PRA TOT 
+520030  Fundamentos de Administración / Management  Fundamentals O P 4 3 2 5 Economía y Empresa 
+520003 Introducción a las Finanzas O P 3 2 2 4 Matemática Aplicada a los Negocios 
+4123 Contabilidad General O P 4 3 2 5 Matemática Aplicada a los Negocios 
+3232 Matemática para la Gestión de Negocios O P 4 3 2 5 Matemática Aplicada a los Negocios 
+520031 Estadística para la Gestión Empresarial I O P 4 3 2 5 Estadística Básica para los Negocios 
+520004 Herramientas Informáticas para la Gestión I O P 3 2 2 4 Economía y Empresa 
+ 
+Nivel 4 
+COD Asignatura TA MOD CRED Horas Requisito TEO PRA TOT 
+520032 Planeamiento Estratégico I / Strategic Planning I O P 4 3 2 5 Fundamentos de Administración / Management Fundamentals 
+4384 Costos y Presupuestos O P 4 3 2 5 Contabilidad General 
+520033 Introducción al Marketing / Introduction to Marketing O P 3 2 2 4 Fundamentos de Administración / Management Fundamentals 
+520034 Estadística para la Gestión Empresarial II O P 4 3 2 5 Estadística para la Gestión Empresarial I 
+3326 Microeconomía / Microeconomics O P 3 2 2 4 Economía y Empresa 
+520035 Herramientas Informáticas para la Gestión II O P 3 2 2 4 Herramientas Informáticas para la Gestión I 
+ 
+Nivel 5 
+COD Asignatura TA MOD CRED Horas Requisito TEO PRA TOT 
+520036 Diseño Organizacional / Organizational Design O P 4 3 2 5 Planeamiento Estratégico I / Strategic Planning I 
+520037 Gestión de Personas / People Management O P 3 2 2 4 Fundamentos de Administración / Management Fundamentals 
+4125 Elaboración de Estados Financieros O P 3 2 2 4  Costos y Presupuestos 
+Introducción a las Finanzas 
+520038 Gestión Legal Empresarial O P 4 3 2 5 Planeamiento Estratégico I / Strategic Planning I 
+520039 Marketing Estratégico / Strategic Marketing O P 3 2 2 4 Introducción al Marketing / Introduction to Marketing 
+3325 Macroeconomía / Macroeconomics O P 3 2 2 4 Microeconomía / Microeconomics 
+ 
+  
+
+--- PAGE 2 ---
+ 
+ 
+Nivel 6 
+COD Asignatura TA MOD CRED Horas Requisito TEO PRA TOT 
+520040 Planeamiento Estratégico II / Strategic Planning II O P 4 3 2 5 Diseño Organizacional / Organizational Design 
+2487 Análisis de la Información Financiera / Financial  Information Analysis O P 3 2 2 4 Elaboración de Estados Financieros 
+520041 Comportamiento Organizacional / Organizational  Behavior O P 3 2 2 4 Gestión de Personas / People Management 
+520042 
+ 
+520042 Investigación y Análisis de Mercado / Market Research  and Analysis O P 4 3 2 5 Marketing Estratégico / Strategic Marketing 
+Estadística para la Gestión Empresarial II 
+520043 Administración de Operaciones / Operations  Management O P 3 2 2 4 Diseño Organizacional / Organizational Design 
+Matemática para la Gestión de Negocios 
+520044 Tecnologías de Información para la Gestión / I.T. for  Management O P 3 2 2 4 Herramientas Informáticas para la Gestión II 
+ 
+Nivel 7 
+COD Asignatura TA MOD CRED Horas Requisito TEO PRA TOT 
+520045 Taller de Innovación y Creatividad Empresarial O P 3 2 2 4 Planeamiento Estratégico II / Strategic Planning II 
+520046 Logística y Comercio Internacional / Logistics and  International Trade O P 3 2 2 4 Administración de Operaciones / Operations Management 
+520070 Gestión Financiera / Financial Management O P 4 3 2 5 Análisis de la Información Financiera / Financial Information 
+Analysis 
+520048 Taller de Liderazgo y Habilidades Gerenciales O P 3 2 2 4 Comportamiento Organizacional / Organizational Behavior 
+520049 Legislación Laboral O P 3 2 2 4 Gestión de Personas / People Management 
+520050 Gestión Comercial / Commercial Management O P 4 3 2 5 Investigación y Análisis de Mercado / Market Research And 
+Analysis 
+ 
+Nivel 8 
+COD Asignatura TA MOD CRED Horas Requisito TEO PRA TOT 
+  
+520058 Taller de Emprendimiento y Creación de Negocios O P 4 3 2 5 Gestión Financiera / Financial Management 
+Taller de Innovación y Creatividad Empresarial 
+520059 Gestión de la Cadena de Suministro / Supply Chain  Management O P 3 2 2 4 Logística y Comercio Internacional / Logistics And International 
+Trade 
+520019 Mercado de Valores / Stock Market O P 3 2 2 4 Gestión Financiera / Financial Management 
+520060 Ética y Sostenibilidad Empresarial / Ethics And  Business Sustainability O P 3 2 2 4 Legislación Laboral 
+520061 Taller de Investigación Empresarial O P 3 3 0 3 
+Planeamiento Estratégico II / Strategic Planning II 
+Investigación y Análisis de Mercado / Market Research and 
+Analysis 
+ 
+  
+
+--- PAGE 3 ---
+ 
+ 
+Nivel 9 
+COD Asignatura TA MOD CRED Horas Requisito TEO PRA TOT 
+520068 Inteligencia de Negocios / Business Intelligence O P 4 3 2 5 Tecnologías de Información para la Gestión / I.T. For 
+Management 
+520069 Gerencia de Operaciones / Applied Operations  Management O P 4 3 2 5 Gestión de la Cadena de Suministro / Supply Chain 
+Management 
+520070 Gerencia Financiera / Applied Financial Management O P 4 3 2 5 Mercado de Valores / Stock Market 
+4153 Seminario de Investigación en Administración I O P 4 3 2 5 Taller de Investigación Empresarial 
+ 
+ 
+Nivel 10 
+COD Asignatura TA MOD CRED Horas Requisito TEO PRA TOT 
+520076 Dirección Estratégica / Strategic Management O P 4 3 2 5 Gerencia Financiera / Applied Financial Management 
+Taller de Emprendimiento y Creación de Negocios 
+520077 Gerencia de Personas / HR Strategic Management O P 4 3 2 5 Taller de Liderazgo y Habilidades Gerenciales 
+520025 Seminario de Investigación en Administración II O P 4 3 2 5 Seminario de Investigación en Administración I 
+520078 Gerencia de Marketing / Marketing Management O P 4 3 2 5 Gestión Comercial / Commercial Management 
+ 
+ 
+ 
+  
+Resumen de créditos de egreso CRED 
+Estudios Generales 40 
+Asignaturas obligatorias 151 
+Asignaturas electivas 18 
+Total de créditos 209 
+
+--- PAGE 4 ---
+ 
+ 
+Asignaturas electivas 
+COD Asignatura TA CRED Horas MOD Requisito TEO PRA TOT 
+520051 Gestión de Empresas Familiares E 3 2 2 4 P Gestión Legal Empresarial 
+520052 Sistemas Integrados de Gestión E 3 2 2 4 P Planeamiento Estratégico II / Strategic Planning II 
+520053 Finanzas Personales y Nuevos Negocios E 3 2 2 4 P Elaboración de Estados Financieros 
+520054 Gestión del Talento Global E 3 2 2 4 P Gestión de Personas / People Management 
+520055 Gestión de Personas por Competencias E 3 2 2 4 P Gestión de Personas / People Management 
+520056 Branding Estratégico E 3 2 2 4 P Marketing Estratégico / Strategic Marketing 
+520057 Taller de Marketing Digital E 3 2 2 4 P Marketing Estratégico / Strategic Marketing 
+520062 E.R.P. para la Gestión Empresarial E 3 2 2 4 P Tecnologías de Información para la Gestión / I.T. For 
+Management 
+520063 Turismo Sostenible E 3 3 0 3 P Diseño Organizacional / Organizational Design 
+520064 Agilidad Organizacional E 3 3 0 3 P Taller de Innovación y Creatividad Empresarial 
+540035 Gerencia de Activos Financieros E 3 3 0 3 P Gestión Financiera / Financial Management 
+520066 Marca Personal y Gestión de Carrera E 3 3 0 3 P Comportamiento Organizacional / Organizational 
+Behavior 
+ 520067 C.R.M. y Fidelización del Cliente E 3 3 0 3 P Investigación y Análisis de Mercado / Market 
+Research And Analysis 
+520071 Gestión de Startups E 3 2 2 4 P Taller de Emprendimiento y Creación de Negocios 
+2165 Juego de Negocios E 3 2 2 4 P Taller de Emprendimiento y Creación de Negocios 
+520073 Gerencia de Proyectos E 3 2 2 4 P Gestión de la Cadena de Suministro / Supply Chain 
+Management 
+3319 Gestión de Inversiones I E 3 3 0 3 P Mercado de Valores / Stock Market 
+3276 Herramientas Informáticas para las Finanzas E 3 2 2 4 P Mercado de Valores / Stock Market 
+520072 Gestión Ambiental E 3 3 0 3 P Ética y Sostenibilidad Empresarial / Ethics And 
+Business Sustainability 
+520074 Seguridad, Salud Ocupacional y Bienestar Organizacional E 3 2 2 4 P Legislación Laboral 
+520017 Resolución de Conflictos y Negociación E 3 2 2 4 P Legislación Laboral 
+520075 Trade y Retail Marketing E 3 2 2 4 P Gestión Comercial / Commercial Management 
+520079 Business Analytics E 3 2 2 4 P Inteligencia de Negocios / Business Intelligence 
+520080 Inteligencia Artificial para la Gestión E 3 3 0 3 P Tecnologías de Información para la Gestión / I.T. For 
+Management 
+2372 Gestión del Servicio E 3 3 0 3 P Gestión de la Cadena de Suministro / Supply Chain 
+Management 
+520081 Modelos de Optimización Logística E 3 2 2 4 P Gestión de la Cadena de Suministro / Supply Chain 
+Management 
+520082 Gestión de Riesgos y Seguros E 3 2 2 4 P Gerencia Financiera / Applied Financial Management 
+3321 Gestión de Inversiones II E 3 3 0 3 P Gestión de Inversiones I 
+520083 Coaching, Mindfulness e Inteligencia Emocional E 3 3 0 3 P Taller de Liderazgo y Habilidades Gerenciales 
+
+--- PAGE 5 ---
+ 
+ 
+520084 Gobierno Corporativo y Compliance E 3 3 0 3 P Ética y Sostenibilidad Empresarial / Ethics And 
+Business Sustainability 
+520085 Marketing B2B E 3 3 0 3 P Gestión Comercial / Commercial Management 
+ 
+

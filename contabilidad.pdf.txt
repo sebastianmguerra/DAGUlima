@@ -1,0 +1,164 @@
+Total pages: 5
+
+--- PAGE 1 ---
+Facultad de Ciencias Empresariales 
+Carrera de Contabilidad y Finanzas 
+ 
+Plan de estudios 2026-1 
+ 
+Nivel 1 
+COD Asignatura TA CRED NAT Horas MOD Requisito TEO PRA TOT 
+510003 Lenguaje y Comunicación I O 4 TEO-PRA 2 4 6 P --------------- 
+510007 Ética Ciudadana O 2 TEO 2 0 2 P --------------- 
+510016 Matemática Aplicada a los Negocios I O 5 TEO-PRA 4 2 6 P --------------- 
+510006 Procesos Psicológicos O 3 TEO-PRA 2 2 4 P --------------- 
+6508 Metodologías de Investigación O 3 TEO-PRA 2 2 4 P --------------- 
+510008 Historia Económica Nacional Contemporánea O 3 TEO-PRA 2 2 4 P --------------- 
+Total de créditos obligatorios 20       
+ 
+Nivel 2 
+COD Asignatura TA CRED NAT Horas MOD Requisito TEO PRA TOT 
+ 510010 Filosofía Aplicada O 3 TEO-PRA 2 2 4 P ---------------  
+ 6511 Lenguaje y Comunicación II O 3 TEO-PRA 2 2 4 P Lenguaje y Comunicación I 
+ 6510 Economía y Empresa O 3 TEO-PRA 2 2 4 P --------------- 
+510011  Introducción al Comercio Internacional O 3 TEO-PRA 2 2 4 P --------------- 
+ 6502 Estadística Básica para los Negocios O 3 TEO-PRA 2 2 4 P Matemática Aplicada a los Negocios I 
+ 510017 Matemática Aplicada a los Negocios II O 5 TEO-PRA 4 2 6 P Matemática Aplicada a los Negocios I 
+Total de créditos obligatorios 20       
+ 
+  
+
+--- PAGE 2 ---
+ 
+ 
+ 
+ 
+Nivel 3 
+COD Asignatura TA CRED NAT Horas MOD Requisito TEO PRA TOT 
+520030 Fundamentos de Administración / Management 
+Fundamentals O 4 TEO-PRA 3 2 5 P Economía y Empresa 
+520031 Estadística para la Gestión Empresarial I O 4 TEO-PRA 3 2 5 P Estadística Básica para los Negocios 
+540047 Fundamentos de Finanzas O 4 TEO-PRA 3 2 5 P Matemática Aplicada a los Negocios II 
+4123 Contabilidad General O 4 TEO-PRA 3 2 5 P Matemática Aplicada a los Negocios II 
+520004 Herramientas Informáticas para la Gestión I O 3 TEO-PRA 2 2 4 P Economía y Empresa 
+Total de créditos obligatorios 19       
+ 
+Nivel 4 
+COD Asignatura TA CRED NAT Horas MOD Requisito TEO PRA TOT 
+520034 Estadística para la Gestión Empresarial II O 4 TEO-PRA 3 2 5 P Estadística para la Gestión Empresarial I 
+540023 Planeamiento Estratégico O 4 TEO-PRA 3 2 5 P Fundamentos de Administración / 
+Management Fundamentals 
+3326 Microeconomía / Microeconomics O 3 TEO-PRA 2 2 4 P Economía y Empresa 
+4384 Costos y Presupuestos O 4 TEO-PRA 3 2 5 P Contabilidad General 
+520035 Herramientas Informáticas para la Gestión II O 3 TEO-PRA 2 2 4 P Herramientas Informáticas para la Gestión 
+I 
+540021 Principios de Contabilidad Financiera O 4 TEO-PRA 3 2 5 P Contabilidad General 
+Total de créditos obligatorios 22       
+ 
+ 
+ 
+  
+
+--- PAGE 3 ---
+Nivel 5 
+COD Asignatura TA CRED NAT Horas MOD Requisito TEO PRA TOT 
+3325 Macroeconomía / Macroeconomics O 3 TEO-PRA 2 2 4 P Microeconomía / Microeconomics 
+4125 Elaboración de Estados Financieros O 3 TEO-PRA 2 2 4 P Costos y Presupuestos 
+Fundamentos de Finanzas 
+540022 Contabilidad Gerencial O 4 TEO-PRA 3 2 5 P Costos y Presupuestos 
+520038 Gestión Legal Empresarial O 4 TEO-PRA 3 2 5 P Planeamiento Estratégico 
+520036 Diseño Organizacional / Organizational Design O 4 TEO-PRA 3 2 5 P Planeamiento Estratégico 
+540025 Gestión Tributaria O 4 TEO 4 0 4 P Principios de Contabilidad Financiera 
+Total de créditos obligatorios 22       
+ 
+Nivel 6 
+COD Asignatura TA CRED NAT Horas MO
+D Requisito TEO PRA TOT 
+540026 Análisis y Planeamiento Financiero / Financial 
+Analysis and Planning O 4 TEO-PRA 3 2 5 P Elaboración de Estados Financieros 
+540027 Auditoría Interna y Cumplimiento O 4 TEO-PRA 3 2 5 P Diseño Organizacional / Organizational Design 
+540004 Contabilidad Financiera Intermedia O 4 TEO-PRA 3 2 5 P Principios de Contabilidad Financiera 
+540005 Impuesto a la Renta O 4 TEO-PRA 3 2 5 P Gestión Tributaria 
+520044 Tecnologías de la Información para la Gestión 
+/ I.T. for Management O 3 TEO-PRA 2 2 4 P Herramientas Informáticas para la Gestión II 
+TOTAL DE CRÉDITOS OBLIGATORIOS 19  
+ 
+ 
+  
+
+--- PAGE 4 ---
+Nivel 7 
+COD Asignatura TA CRED NAT Horas MO
+D Requisito TEO PRA TOT 
+540007 Auditoría Financiera I O 4 TEO-PRA 3 2 5 P Auditoría Interna y Cumplimiento 
+540028 Finanzas Corporativas I O 4 TEO-PRA 3 2 5 P Análisis y Planeamiento Financiero 
+520049 Legislación Laboral O 3 TEO-PRA 2 2 4 P Gestión Legal Empresarial 
+4305 Impuestos Indirectos O 4 TEO-PRA 3 2 5 P Impuesto a la Renta 
+520048 Taller de Liderazgo y Habilidades Gerenciales O 3 TALLER 2 2 4 P Diseño Organizacional / Organizational Design 
+540031 Contabilidad Internacional para el Sector 
+Público E 3 TEO 3 0 3 P Contabilidad Financiera Intermedia 
+540032 Gestión Bancaria E 3 TEO 3 0 3 P Análisis y Planeamiento Financiero 
+4225 Seminario de Informática Contable E 3 TEO 3 0 3 P Herramientas Informáticas para la Gestión II 
+TOTAL DE CRÉDITOS OBLIGATORIOS 18  
+ 
+Nivel 8 
+COD Asignatura TA CRED NAT Horas MO
+D Requisito TEO PRA TOT 
+540033 Banca de Inversión O 3 TEO-PRA 2 2 4 P Finanzas Corporativas I 
+540034 Introducción a la Investigación Contable O 3 TEO 3 0 3 P Contabilidad Financiera Intermedia 
+540009 Contabilidad Financiera Avanzada O 4 TEO-PRA 3 2 5 P Contabilidad Financiera Intermedia 
+520058 Taller de Emprendimiento y Creación de 
+Negocios O 4 TALLER 3 2 5 P Taller de Liderazgo y Habilidades Gerenciales 
+520060 Ética y Sostenibilidad Empresarial / Ethics and 
+Business Sustainability O 3 TEO-PRA 2 2 4 P Legislación Laboral 
+540035 Gerencia de Activos Financieros E 3 TEO 3 0 3 P Finanzas Corporativas I 
+540036 Tributación Sectorial E 3 TEO 3 0 3 P Impuesto a la Renta 
+540037 ERP para la Gestión Empresarial E 3 TEO-PRA 2 2 4 P Tecnologías de la Información para la Gestión / 
+I.T. for Management 
+540038 Auditoría Forense E 3 TEO 3 0 3 P Auditoría Financiera I 
+TOTAL DE CRÉDITOS OBLIGATORIOS 17  
+ 
+  
+
+--- PAGE 5 ---
+Nivel 9 
+COD Asignatura TA CRED NAT Horas MOD Requisito TEO PRA TOT 
+540010 Seminario de Investigación Contable I O 4 SEM INV 3 2 5 P Introducción a la Investigación Contable 
+4216 Finanzas Corporativas II O 4 TEO-PRA 3 2 5 P Finanzas Corporativas I 
+520068 Inteligencia de Negocios / Business 
+Intelligence O 4 TEO-PRA 3 2 5 P Tecnologías de la Información para la Gestión / 
+I.T. for Management 
+540040 Auditoría Financiera II O 4 TEO-PRA 3 2 5 P Auditoría Financiera I 
+2165 Juego de Negocios E 3 TEO-PRA 2 2 4 P Taller de Emprendimiento y Creación de Negocios 
+3276 Herramientas Informáticas para las Finanzas E 3 TEO-PRA 2 2 4 P Banca de Inversión 
+3319 Gestión de Inversiones I E 3 TEO 3 0 3 P Banca de Inversión 
+540042 Tributación Internacional y Precios de 
+Transferencia E 3 TEO 3 0 3 P Impuesto a la Renta 
+540043 Normas Internacionales de Información 
+Financiera: Perspectiva Tributaria E 3 TEO 3 0 3 P Contabilidad Financiera Avanzada 
+520514 Marketing Personal E 3 TEO 3 0 3 P Taller de Emprendimiento y Creación de Negocios 
+520074 Seguridad, Salud Ocupacional y Bienestar 
+Organizacional E 3 TEO-PRA 2 2 4 P Legislación Laboral 
+TOTAL DE CRÉDITOS OBLIGATORIOS 16  
+ 
+Nivel 10 
+COD Asignatura TA CRED NAT Horas MOD Requisito TEO PRA TOT 
+540013 Seminario de Investigación Contable II O 4 SEM INV 3 2 5 P Seminario De Investigación Contable I 
+540045 Dirección Financiera Aplicada O 4 TEO-PRA 3 2 5 P Finanzas Corporativas II 
+540014 Contabilidad Financiera de Grupos 
+Económicos O 4 TEO-PRA 3 2 5 P Contabilidad Financiera Avanzada 
+3321 Gestión de Inversiones II E 3 TEO 3 0 3 P Gestión de Inversiones I 
+4140 Auditoría y Planeamiento Tributario E 3 TEO 3 0 3 P Impuesto a la Renta 
+540046 Analítica de Negocios / Business Analytics E 3 TEO-PRA 2 2 4 P Inteligencia de Negocios / Business Intelligence 
+520082 Gestión de Riesgos y Seguros E 3 TEO-PRA 2 2 4 P Finanzas Corporativas II 
+520083 Coaching, Mindfulness e Inteligencia 
+Emocional E 3 TEO 3 0 3 P Taller de Liderazgo y Habilidades Gerenciales 
+TOTAL DE CRÉDITOS OBLIGATORIOS 12  
+ 
+Resumen de créditos de egreso CRED 
+Estudios Generales 40 
+Asignaturas obligatorias 145 
+Asignaturas electivas 24 
+Total de créditos 209 
+ 
+
