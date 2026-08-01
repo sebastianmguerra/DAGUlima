@@ -123,9 +123,27 @@ document.addEventListener('DOMContentLoaded', () => {
     };
   }
 
-  function loadCareer(careerKey) {
-    const careerObj = CAREERS_DATA[careerKey];
-    if (!careerObj) return;
+  let isLoadingCareer = false;
+
+  async function loadCareer(careerKey) {
+    if (isLoadingCareer) return;
+    isLoadingCareer = true;
+
+    // Show a loading state on the main title
+    const mainTitle = document.getElementById('main-title');
+    if (mainTitle) mainTitle.textContent = 'Cargando...';
+
+    let careerObj;
+    try {
+      const response = await fetch(`data/${careerKey}.json`);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      careerObj = await response.json();
+    } catch (e) {
+      console.error(`Failed to load data/${careerKey}.json:`, e);
+      if (mainTitle) mainTitle.textContent = 'Error al cargar la carrera';
+      isLoadingCareer = false;
+      return;
+    }
 
     if (network) {
       network.destroy();
@@ -139,7 +157,9 @@ document.addEventListener('DOMContentLoaded', () => {
     levelBtns.forEach(b => b.classList.remove('active'));
     document.querySelector('.level-btn[data-level="all"]').classList.add('active');
     hideCourseDetails();
-    
+
+    if (mainTitle) mainTitle.textContent = 'Grafo de Correlaciones Curriculares';
+
     currentCoursesData = careerObj.courses;
     
     coursesMap = {};
@@ -238,6 +258,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     applyFilters();
+    isLoadingCareer = false;
   }
 
   // --- Filtering & Selection ---

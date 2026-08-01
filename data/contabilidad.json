@@ -1,0 +1,701 @@
+{
+  "name": "Contabilidad",
+  "courses": [
+    {
+      "id": "510003",
+      "name": "Lenguaje y Comunicación I",
+      "level": 1,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "510007",
+      "name": "Ética Ciudadana",
+      "level": 1,
+      "type": "O",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "510016",
+      "name": "Matemática Aplicada a los Negocios I",
+      "level": 1,
+      "type": "O",
+      "credits": 5,
+      "reqs": []
+    },
+    {
+      "id": "510006",
+      "name": "Procesos Psicológicos",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6508",
+      "name": "Metodologías de Investigación",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510008",
+      "name": "Historia Económica Nacional Contemporánea",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510010",
+      "name": "Filosofía Aplicada",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6511",
+      "name": "Lenguaje y Comunicación II",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "510003"
+      ]
+    },
+    {
+      "id": "6510",
+      "name": "Economía y Empresa",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510011",
+      "name": "Introducción al Comercio Internacional",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6502",
+      "name": "Estadística Básica para los Negocios",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "510016"
+      ]
+    },
+    {
+      "id": "510017",
+      "name": "Matemática Aplicada a los Negocios II",
+      "level": 2,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "CON_003",
+        "510016"
+      ]
+    },
+    {
+      "id": "CON_001",
+      "name": "Fundamentals",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6510"
+      ]
+    },
+    {
+      "id": "520031",
+      "name": "Estadística para la Gestión Empresarial I",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6502"
+      ]
+    },
+    {
+      "id": "540047",
+      "name": "Fundamentos de Finanzas",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "510017"
+      ]
+    },
+    {
+      "id": "4123",
+      "name": "Contabilidad General",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "510017"
+      ]
+    },
+    {
+      "id": "520004",
+      "name": "Herramientas Informáticas para la Gestión I",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6510"
+      ]
+    },
+    {
+      "id": "520034",
+      "name": "Estadística para la Gestión Empresarial II",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520031"
+      ]
+    },
+    {
+      "id": "540023",
+      "name": "Planeamiento Estratégico",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "CON_001"
+      ]
+    },
+    {
+      "id": "3326",
+      "name": "Microeconomía / Microeconomics",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6510"
+      ]
+    },
+    {
+      "id": "4384",
+      "name": "Costos y Presupuestos",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "4123"
+      ]
+    },
+    {
+      "id": "520035",
+      "name": "Herramientas Informáticas para la Gestión II",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520004"
+      ]
+    },
+    {
+      "id": "540021",
+      "name": "Principios de Contabilidad Financiera",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "4123"
+      ]
+    },
+    {
+      "id": "3325",
+      "name": "Macroeconomía / Macroeconomics",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "3326"
+      ]
+    },
+    {
+      "id": "4125",
+      "name": "Elaboración de Estados Financieros",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "540047",
+        "4384"
+      ]
+    },
+    {
+      "id": "540022",
+      "name": "Contabilidad Gerencial",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "4384"
+      ]
+    },
+    {
+      "id": "520038",
+      "name": "Gestión Legal Empresarial",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "540023"
+      ]
+    },
+    {
+      "id": "520036",
+      "name": "Diseño Organizacional / Organizational Design",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "540023"
+      ]
+    },
+    {
+      "id": "540025",
+      "name": "Gestión Tributaria",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "CON_003",
+        "540021"
+      ]
+    },
+    {
+      "id": "CON_002",
+      "name": "Analysis and Planning",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "4125"
+      ]
+    },
+    {
+      "id": "540027",
+      "name": "Auditoría Interna y Cumplimiento",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520036"
+      ]
+    },
+    {
+      "id": "540004",
+      "name": "Contabilidad Financiera Intermedia",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "540021"
+      ]
+    },
+    {
+      "id": "540005",
+      "name": "Impuesto a la Renta",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "CON_003",
+        "540025"
+      ]
+    },
+    {
+      "id": "CON_003",
+      "name": "/ I.T. for Management",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "CON_003",
+        "520035"
+      ]
+    },
+    {
+      "id": "540007",
+      "name": "Auditoría Financiera I",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "540027"
+      ]
+    },
+    {
+      "id": "540028",
+      "name": "Finanzas Corporativas I",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "CON_003"
+      ]
+    },
+    {
+      "id": "520049",
+      "name": "Legislación Laboral",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520038"
+      ]
+    },
+    {
+      "id": "4305",
+      "name": "Impuestos Indirectos",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "540005"
+      ]
+    },
+    {
+      "id": "520048",
+      "name": "Taller de Liderazgo y Habilidades Gerenciales",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "CON_003",
+        "520036"
+      ]
+    },
+    {
+      "id": "CON_004",
+      "name": "Público",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "540004"
+      ]
+    },
+    {
+      "id": "540032",
+      "name": "Gestión Bancaria",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "CON_003"
+      ]
+    },
+    {
+      "id": "4225",
+      "name": "Seminario de Informática Contable",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "CON_003",
+        "520035"
+      ]
+    },
+    {
+      "id": "540033",
+      "name": "Banca de Inversión",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "540028"
+      ]
+    },
+    {
+      "id": "540034",
+      "name": "Introducción a la Investigación Contable",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "540004"
+      ]
+    },
+    {
+      "id": "540009",
+      "name": "Contabilidad Financiera Avanzada",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "CON_003",
+        "540004"
+      ]
+    },
+    {
+      "id": "CON_005",
+      "name": "Negocios",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520048",
+        "CON_003"
+      ]
+    },
+    {
+      "id": "CON_006",
+      "name": "Business Sustainability",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520049"
+      ]
+    },
+    {
+      "id": "540035",
+      "name": "Gerencia de Activos Financieros",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "540028"
+      ]
+    },
+    {
+      "id": "540036",
+      "name": "Tributación Sectorial",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "540005"
+      ]
+    },
+    {
+      "id": "540037",
+      "name": "ERP para la Gestión Empresarial",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "CON_003"
+      ]
+    },
+    {
+      "id": "540038",
+      "name": "Auditoría Forense",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "540007"
+      ]
+    },
+    {
+      "id": "540010",
+      "name": "Seminario de Investigación Contable I",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "540034"
+      ]
+    },
+    {
+      "id": "4216",
+      "name": "Finanzas Corporativas II",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "CON_003",
+        "540028"
+      ]
+    },
+    {
+      "id": "CON_007",
+      "name": "Intelligence",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "CON_003"
+      ]
+    },
+    {
+      "id": "540040",
+      "name": "Auditoría Financiera II",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "540007"
+      ]
+    },
+    {
+      "id": "2165",
+      "name": "Juego de Negocios",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "CON_003"
+      ]
+    },
+    {
+      "id": "3276",
+      "name": "Herramientas Informáticas para las Finanzas",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "540033"
+      ]
+    },
+    {
+      "id": "3319",
+      "name": "Gestión de Inversiones I",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "CON_003",
+        "540033"
+      ]
+    },
+    {
+      "id": "CON_008",
+      "name": "Transferencia",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "540005",
+        "CON_003"
+      ]
+    },
+    {
+      "id": "CON_009",
+      "name": "Financiera: Perspectiva Tributaria",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "540009"
+      ]
+    },
+    {
+      "id": "520514",
+      "name": "Marketing Personal",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "CON_003"
+      ]
+    },
+    {
+      "id": "CON_010",
+      "name": "Organizacional",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520049"
+      ]
+    },
+    {
+      "id": "540013",
+      "name": "Seminario de Investigación Contable II",
+      "level": 10,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "540010"
+      ]
+    },
+    {
+      "id": "540045",
+      "name": "Dirección Financiera Aplicada",
+      "level": 10,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "CON_003",
+        "4216"
+      ]
+    },
+    {
+      "id": "CON_011",
+      "name": "Económicos",
+      "level": 10,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "540009"
+      ]
+    },
+    {
+      "id": "3321",
+      "name": "Gestión de Inversiones II",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "3319"
+      ]
+    },
+    {
+      "id": "4140",
+      "name": "Auditoría y Planeamiento Tributario",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "540005"
+      ]
+    },
+    {
+      "id": "540046",
+      "name": "Analítica de Negocios / Business Analytics",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "CON_003"
+      ]
+    },
+    {
+      "id": "520082",
+      "name": "Gestión de Riesgos y Seguros",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "CON_003",
+        "4216"
+      ]
+    },
+    {
+      "id": "CON_012",
+      "name": "Emocional",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520048"
+      ]
+    }
+  ]
+}

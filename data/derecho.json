@@ -1,0 +1,807 @@
+{
+  "name": "Derecho",
+  "courses": [
+    {
+      "id": "510001",
+      "name": "GLOBALIZACIÓN",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510003",
+      "name": "LENGUAJE",
+      "level": 1,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "6508",
+      "name": "METODOLOGÍAS",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6505",
+      "name": "DESARROLLO",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6383",
+      "name": "FUNDAMENTOS",
+      "level": 1,
+      "type": "O",
+      "credits": 5,
+      "reqs": []
+    },
+    {
+      "id": "510004",
+      "name": "ÉTICA",
+      "level": 1,
+      "type": "O",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "6510",
+      "name": "ECONOMÍA",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6511",
+      "name": "LENGUAJE",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6511"
+      ]
+    },
+    {
+      "id": "6512",
+      "name": "PROCESOS",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6513",
+      "name": "TEMAS",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6514",
+      "name": "LITERATURA",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6511"
+      ]
+    },
+    {
+      "id": "6515",
+      "name": "ARTE",
+      "level": 2,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "610030",
+      "name": "EXPRESIÓN",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6511"
+      ]
+    },
+    {
+      "id": "610031",
+      "name": "PROBLEMÁTICA",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6512"
+      ]
+    },
+    {
+      "id": "6227",
+      "name": "HISTORIA",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "7196",
+      "name": "INTRODUCCIÓN",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "7209",
+      "name": "INTRODUCCIÓN",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7020",
+      "name": "INTRODUCCIÓN",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "610023"
+      ]
+    },
+    {
+      "id": "7040",
+      "name": "DERECHO",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6228"
+      ]
+    },
+    {
+      "id": "7208",
+      "name": "DERECHO",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6515"
+      ]
+    },
+    {
+      "id": "7421",
+      "name": "LÓGICA",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "610023"
+      ]
+    },
+    {
+      "id": "7009",
+      "name": "DERECHO",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6515"
+      ]
+    },
+    {
+      "id": "7212",
+      "name": "DERECHO",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "610026"
+      ]
+    },
+    {
+      "id": "7410",
+      "name": "DERECHO",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6510"
+      ]
+    },
+    {
+      "id": "7213",
+      "name": "DERECHO",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7411",
+      "name": "DERECHO",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "4026",
+      "name": "INTRODUCCIÓN",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "610002",
+      "name": "DERECHO",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7060",
+      "name": "DERECHO",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7113",
+      "name": "DERECHO",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6515"
+      ]
+    },
+    {
+      "id": "7238",
+      "name": "DERECHO",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7240",
+      "name": "DERECHO",
+      "level": 6,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7412",
+      "name": "DERECHO",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "6228",
+      "name": "HISTORIA",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "6228"
+      ]
+    },
+    {
+      "id": "7106",
+      "name": "DERECHO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7197",
+      "name": "CIENCIA",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "610023"
+      ]
+    },
+    {
+      "id": "7227",
+      "name": "DERECHO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7228",
+      "name": "CRIMINOLOGÍA",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7229",
+      "name": "DERECHO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "610003",
+      "name": "TEORÍA",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7242",
+      "name": "DERECHO",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6515"
+      ]
+    },
+    {
+      "id": "7245",
+      "name": "DERECHO",
+      "level": 8,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "6515"
+      ]
+    },
+    {
+      "id": "7250",
+      "name": "DERECHO",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6510"
+      ]
+    },
+    {
+      "id": "7107",
+      "name": "CONTRATACIÓN",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7215",
+      "name": "DERECHO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7351",
+      "name": "NEGOCIACION",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "610005",
+      "name": "INGLÉS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "610006",
+      "name": "FUNDAMENTOS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "610007",
+      "name": "TEMAS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "610027",
+      "name": "PROPIEDAD",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "610028",
+      "name": "INSTRUMENTOS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "6510"
+      ]
+    },
+    {
+      "id": "7115",
+      "name": "DERECHO",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7117",
+      "name": "DERECHO",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6515"
+      ]
+    },
+    {
+      "id": "7243",
+      "name": "DERECHO",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6515"
+      ]
+    },
+    {
+      "id": "7122",
+      "name": "ESTADOS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "610023"
+      ]
+    },
+    {
+      "id": "7256",
+      "name": "TUTELA",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "6515"
+      ]
+    },
+    {
+      "id": "7365",
+      "name": "DERECHO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "6515"
+      ]
+    },
+    {
+      "id": "7388",
+      "name": "DERECHO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "6515"
+      ]
+    },
+    {
+      "id": "610008",
+      "name": "CALIDAD",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "6515"
+      ]
+    },
+    {
+      "id": "610011",
+      "name": "DERECHO",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6515"
+      ]
+    },
+    {
+      "id": "7145",
+      "name": "FUSIONES",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "6515"
+      ]
+    },
+    {
+      "id": "7355",
+      "name": "SEMINARIO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "610017",
+      "name": "TEMAS",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": [
+        "6515"
+      ]
+    },
+    {
+      "id": "1470",
+      "name": "ÉTICA",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7261",
+      "name": "DERECHO",
+      "level": 9,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7255",
+      "name": "DERECHO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7267",
+      "name": "POLÍTICA",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7273",
+      "name": "SEMINARIO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7284",
+      "name": "DERECHO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7344",
+      "name": "DERECHO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "610019",
+      "name": "ARBITRAJES",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "610020",
+      "name": "PROJECT",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "610021",
+      "name": "FONDOS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "610022",
+      "name": "DERECHO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "610029",
+      "name": "REGULACIÓN",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "610023",
+      "name": "INTRODUCCIÓN",
+      "level": 9,
+      "type": "O",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "610018",
+      "name": "SEMINARIO",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "610024"
+      ]
+    },
+    {
+      "id": "7032",
+      "name": "DERECHO",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7278",
+      "name": "SEMINARIO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "7282",
+      "name": "COOPERACIÓN",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "610024",
+      "name": "SEMINARIO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "7032"
+      ]
+    },
+    {
+      "id": "610025",
+      "name": "TEMAS",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": [
+        "6515"
+      ]
+    },
+    {
+      "id": "610026",
+      "name": "TEMAS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "6515"
+      ]
+    }
+  ]
+}

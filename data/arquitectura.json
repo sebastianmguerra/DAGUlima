@@ -1,0 +1,762 @@
+{
+  "name": "Arquitectura 2026-1",
+  "courses": [
+    {
+      "id": "510003",
+      "name": "Lenguaje y Comunicación I",
+      "level": 1,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "510006",
+      "name": "Procesos Psicológicos",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510007",
+      "name": "Ética Ciudadana",
+      "level": 1,
+      "type": "O",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "6509",
+      "name": "Matemática para Arquitectura",
+      "level": 1,
+      "type": "O",
+      "credits": 5,
+      "reqs": []
+    },
+    {
+      "id": "700118",
+      "name": "Dibujo I",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "700001",
+      "name": "Proyecto de Arquitectura I",
+      "level": 1,
+      "type": "O",
+      "credits": 5,
+      "reqs": []
+    },
+    {
+      "id": "6511",
+      "name": "Lenguaje y Comunicación II",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "510003"
+      ]
+    },
+    {
+      "id": "510010",
+      "name": "Filosofía Aplicada",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6510",
+      "name": "Economía y Empresa",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "51001",
+      "name": "Introducción al Comercio Internacional",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "700004",
+      "name": "Dibujo II",
+      "level": 2,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "700118"
+      ]
+    },
+    {
+      "id": "700107",
+      "name": "Proyecto de Arquitectura II",
+      "level": 2,
+      "type": "O",
+      "credits": 6,
+      "reqs": [
+        "700001"
+      ]
+    },
+    {
+      "id": "700056",
+      "name": "Dibujo III",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700004"
+      ]
+    },
+    {
+      "id": "700121",
+      "name": "Edificación Sostenible I",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "700060",
+      "name": "Física",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6509"
+      ]
+    },
+    {
+      "id": "700122",
+      "name": "Introducción a la Arquitectura",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "700123",
+      "name": "Urbanismo y Medio Ambiente I",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "51001"
+      ]
+    },
+    {
+      "id": "700055",
+      "name": "Proyecto de Arquitectura III",
+      "level": 3,
+      "type": "O",
+      "credits": 8,
+      "reqs": [
+        "700107"
+      ]
+    },
+    {
+      "id": "700124",
+      "name": "Edificación Sostenible II",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700121"
+      ]
+    },
+    {
+      "id": "700108",
+      "name": "Grafica Digital",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700056"
+      ]
+    },
+    {
+      "id": "700063",
+      "name": "Historia y Teoría de la Arquitectura I",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700122"
+      ]
+    },
+    {
+      "id": "700066",
+      "name": "Orientación Estructural",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700060"
+      ]
+    },
+    {
+      "id": "700125",
+      "name": "Tecnología Ambiental I",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700121"
+      ]
+    },
+    {
+      "id": "700061",
+      "name": "Proyecto de Arquitectura IV",
+      "level": 4,
+      "type": "O",
+      "credits": 8,
+      "reqs": [
+        "700055"
+      ]
+    },
+    {
+      "id": "700109",
+      "name": "Dibujo y presentación de Proyectos",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700056"
+      ]
+    },
+    {
+      "id": "700126",
+      "name": "Diseño Estructural I",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700066",
+        "700124"
+      ]
+    },
+    {
+      "id": "700069",
+      "name": "Historia y Teoría de la Arquitectura II",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700063"
+      ]
+    },
+    {
+      "id": "700110",
+      "name": "Instalaciones I",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700124"
+      ]
+    },
+    {
+      "id": "700127",
+      "name": "Urbanismo y Medio Ambiente II",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700123"
+      ]
+    },
+    {
+      "id": "700067",
+      "name": "Proyecto de Arquitectura V",
+      "level": 5,
+      "type": "O",
+      "credits": 8,
+      "reqs": [
+        "700061"
+      ]
+    },
+    {
+      "id": "700128",
+      "name": "Diseño Estructural II",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700126"
+      ]
+    },
+    {
+      "id": "700075",
+      "name": "Historia y Teoría de la Arquitectura III",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700069"
+      ]
+    },
+    {
+      "id": "700111",
+      "name": "Instalaciones II",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700110",
+        "700109"
+      ]
+    },
+    {
+      "id": "700058",
+      "name": "Estadística",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "700073",
+      "name": "Proyecto de Arquitectura VI",
+      "level": 6,
+      "type": "O",
+      "credits": 8,
+      "reqs": [
+        "700066",
+        "700067"
+      ]
+    },
+    {
+      "id": "ARQ_001",
+      "name": "Electivo 1",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "700082",
+      "name": "Gestión de Proyectos I",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700058"
+      ]
+    },
+    {
+      "id": "700081",
+      "name": "Historia de la Arquitectura Peruana",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700075"
+      ]
+    },
+    {
+      "id": "700112",
+      "name": "Metrados, Presupuesto y Programación de Obra",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700128",
+        "700111"
+      ]
+    },
+    {
+      "id": "700079",
+      "name": "Proyecto de Arquitectura VII",
+      "level": 7,
+      "type": "O",
+      "credits": 8,
+      "reqs": [
+        "700073"
+      ]
+    },
+    {
+      "id": "ARQ_002",
+      "name": "Electivo 2",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "700086",
+      "name": "Desarrollo de Proyecto",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700128",
+        "700111"
+      ]
+    },
+    {
+      "id": "700087",
+      "name": "Gestión de Proyectos II",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700112",
+        "700082"
+      ]
+    },
+    {
+      "id": "700085",
+      "name": "Proyecto de Arquitectura VIII",
+      "level": 8,
+      "type": "O",
+      "credits": 8,
+      "reqs": [
+        "700079",
+        "700127"
+      ]
+    },
+    {
+      "id": "ARQ_003",
+      "name": "Electivo 3",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "ARQ_004",
+      "name": "Electivo 4",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "700095",
+      "name": "Gestión de Proyectos III",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700087",
+        "700086"
+      ]
+    },
+    {
+      "id": "700094",
+      "name": "Proyecto de Arquitectura IX",
+      "level": 9,
+      "type": "O",
+      "credits": 8,
+      "reqs": [
+        "700085"
+      ]
+    },
+    {
+      "id": "ARQ_005",
+      "name": "Electivo 5",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "ARQ_006",
+      "name": "Electivo 6",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "ARQ_007",
+      "name": "Electivo 7",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "700120",
+      "name": "Gestión de Proyectos IV",
+      "level": 10,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "700095"
+      ]
+    },
+    {
+      "id": "700117",
+      "name": "Proyecto de Fin de Carrera",
+      "level": 10,
+      "type": "O",
+      "credits": 10,
+      "reqs": [
+        "700094"
+      ]
+    },
+    {
+      "id": "700119",
+      "name": "Seminario de Investigación en Arquitectura",
+      "level": 10,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "ARQ_008",
+      "name": "Organizacional",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "700067"
+      ]
+    },
+    {
+      "id": "700088",
+      "name": "Fotografía",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "700089",
+      "name": "Apuntes",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "700090",
+      "name": "Cad Avanzado",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "700092",
+      "name": "Arquitectura paisajista",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": [
+        "700123"
+      ]
+    },
+    {
+      "id": "700093",
+      "name": "Conservación del Patrimonio Edificado",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": [
+        "700081"
+      ]
+    },
+    {
+      "id": "700113",
+      "name": "Diseño y Fabricación Digital",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "700096",
+      "name": "Acabados de Construcción",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": [
+        "700086"
+      ]
+    },
+    {
+      "id": "700099",
+      "name": "Análisis Regional y Urbano",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": [
+        "700127"
+      ]
+    },
+    {
+      "id": "700100",
+      "name": "Acústica",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "700101",
+      "name": "Conservación de Centros Históricos",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": [
+        "700081",
+        "700127"
+      ]
+    },
+    {
+      "id": "700115",
+      "name": "Topografía y Mecánica de Suelos",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": [
+        "700124"
+      ]
+    },
+    {
+      "id": "700116",
+      "name": "Diseño Lumínico Arquitectónico",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": [
+        "700125"
+      ]
+    },
+    {
+      "id": "700129",
+      "name": "Historia del Arte",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "700130",
+      "name": "Teoría del Diseño de la Vivienda",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "700131",
+      "name": "Urbanismo y Medio Ambiente III",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": [
+        "700127"
+      ]
+    },
+    {
+      "id": "700132",
+      "name": "Diseño Estructural III",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": [
+        "700128"
+      ]
+    },
+    {
+      "id": "700133",
+      "name": "Tecnología Ambiental II",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": [
+        "700125"
+      ]
+    },
+    {
+      "id": "700134",
+      "name": "Diseño de Interiores",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": [
+        "700111"
+      ]
+    },
+    {
+      "id": "700135",
+      "name": "Diseño y Construcción en Madera",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": [
+        "700128"
+      ]
+    },
+    {
+      "id": "700136",
+      "name": "Diseño y Análisis Cartográfico",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": [
+        "700123"
+      ]
+    },
+    {
+      "id": "700137",
+      "name": "Arquitectura Latinoamericana Contemporánea",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "700138",
+      "name": "Seminario de Arquitectura y Diseño de Interiores",
+      "level": 11,
+      "type": "E",
+      "credits": 4,
+      "reqs": [
+        "700096",
+        "700134"
+      ]
+    },
+    {
+      "id": "ARQ_009",
+      "name": "Edificado",
+      "level": 11,
+      "type": "E",
+      "credits": 4,
+      "reqs": [
+        "700093",
+        "700101"
+      ]
+    },
+    {
+      "id": "700140",
+      "name": "Seminario de Tecnologías de Edificación",
+      "level": 11,
+      "type": "E",
+      "credits": 4,
+      "reqs": [
+        "700132",
+        "700133"
+      ]
+    },
+    {
+      "id": "700141",
+      "name": "Seminario de Urbanismo y Medio Ambiente",
+      "level": 11,
+      "type": "E",
+      "credits": 4,
+      "reqs": [
+        "700131",
+        "700136"
+      ]
+    }
+  ]
+}

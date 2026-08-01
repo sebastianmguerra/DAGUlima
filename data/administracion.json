@@ -1,0 +1,737 @@
+{
+  "name": "Administracion",
+  "courses": [
+    {
+      "id": "520030",
+      "name": "Fundamentos de Administración / Management  Fundamentals",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "520003",
+      "name": "Introducción a las Finanzas",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "4123",
+      "name": "Contabilidad General",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "3232",
+      "name": "Matemática para la Gestión de Negocios",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "520031",
+      "name": "Estadística para la Gestión Empresarial I",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "520004",
+      "name": "Herramientas Informáticas para la Gestión I",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "520032",
+      "name": "Planeamiento Estratégico I / Strategic Planning I",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520030"
+      ]
+    },
+    {
+      "id": "4384",
+      "name": "Costos y Presupuestos",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "4123"
+      ]
+    },
+    {
+      "id": "520033",
+      "name": "Introducción al Marketing / Introduction to Marketing",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520030"
+      ]
+    },
+    {
+      "id": "520034",
+      "name": "Estadística para la Gestión Empresarial II",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520031"
+      ]
+    },
+    {
+      "id": "3326",
+      "name": "Microeconomía / Microeconomics",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "520035",
+      "name": "Herramientas Informáticas para la Gestión II",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520004"
+      ]
+    },
+    {
+      "id": "520036",
+      "name": "Diseño Organizacional / Organizational Design",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520032"
+      ]
+    },
+    {
+      "id": "520037",
+      "name": "Gestión de Personas / People Management",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520030"
+      ]
+    },
+    {
+      "id": "4125",
+      "name": "Elaboración de Estados Financieros",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520003",
+        "4384"
+      ]
+    },
+    {
+      "id": "520038",
+      "name": "Gestión Legal Empresarial",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520032"
+      ]
+    },
+    {
+      "id": "520039",
+      "name": "Marketing Estratégico / Strategic Marketing",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520033"
+      ]
+    },
+    {
+      "id": "3325",
+      "name": "Macroeconomía / Macroeconomics",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "3326"
+      ]
+    },
+    {
+      "id": "520040",
+      "name": "Planeamiento Estratégico II / Strategic Planning II",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520036"
+      ]
+    },
+    {
+      "id": "2487",
+      "name": "Análisis de la Información Financiera / Financial  Information Analysis",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "4125"
+      ]
+    },
+    {
+      "id": "520041",
+      "name": "Comportamiento Organizacional / Organizational  Behavior",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520037"
+      ]
+    },
+    {
+      "id": "520042",
+      "name": "Investigación y Análisis de Mercado / Market Research  and Analysis",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520034",
+        "520039"
+      ]
+    },
+    {
+      "id": "520043",
+      "name": "Administración de Operaciones / Operations  Management",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520036",
+        "3232"
+      ]
+    },
+    {
+      "id": "520044",
+      "name": "Tecnologías de Información para la Gestión / I.T. for  Management",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520035"
+      ]
+    },
+    {
+      "id": "520045",
+      "name": "Taller de Innovación y Creatividad Empresarial",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520040"
+      ]
+    },
+    {
+      "id": "520046",
+      "name": "Logística y Comercio Internacional / Logistics and  International Trade",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520043"
+      ]
+    },
+    {
+      "id": "520070",
+      "name": "Gestión Financiera / Financial Management",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "2487"
+      ]
+    },
+    {
+      "id": "520048",
+      "name": "Taller de Liderazgo y Habilidades Gerenciales",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520041"
+      ]
+    },
+    {
+      "id": "520049",
+      "name": "Legislación Laboral",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520037"
+      ]
+    },
+    {
+      "id": "520050",
+      "name": "Gestión Comercial / Commercial Management",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520042"
+      ]
+    },
+    {
+      "id": "520058",
+      "name": "Taller de Emprendimiento y Creación de Negocios",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520045",
+        "520070"
+      ]
+    },
+    {
+      "id": "520059",
+      "name": "Gestión de la Cadena de Suministro / Supply Chain  Management",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520046"
+      ]
+    },
+    {
+      "id": "520019",
+      "name": "Mercado de Valores / Stock Market",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520070"
+      ]
+    },
+    {
+      "id": "520060",
+      "name": "Ética y Sostenibilidad Empresarial / Ethics And  Business Sustainability",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520049"
+      ]
+    },
+    {
+      "id": "520061",
+      "name": "Taller de Investigación Empresarial",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520040",
+        "520042"
+      ]
+    },
+    {
+      "id": "520068",
+      "name": "Inteligencia de Negocios / Business Intelligence",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520044"
+      ]
+    },
+    {
+      "id": "520069",
+      "name": "Gerencia de Operaciones / Applied Operations  Management",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520059"
+      ]
+    },
+    {
+      "id": "520070",
+      "name": "Gerencia Financiera / Applied Financial Management",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520019"
+      ]
+    },
+    {
+      "id": "4153",
+      "name": "Seminario de Investigación en Administración I",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520061"
+      ]
+    },
+    {
+      "id": "520076",
+      "name": "Dirección Estratégica / Strategic Management",
+      "level": 10,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520058",
+        "520070"
+      ]
+    },
+    {
+      "id": "520077",
+      "name": "Gerencia de Personas / HR Strategic Management",
+      "level": 10,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520048"
+      ]
+    },
+    {
+      "id": "520025",
+      "name": "Seminario de Investigación en Administración II",
+      "level": 10,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "4153"
+      ]
+    },
+    {
+      "id": "520078",
+      "name": "Gerencia de Marketing / Marketing Management",
+      "level": 10,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520050"
+      ]
+    },
+    {
+      "id": "520051",
+      "name": "Gestión de Empresas Familiares",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520038"
+      ]
+    },
+    {
+      "id": "520052",
+      "name": "Sistemas Integrados de Gestión",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520040"
+      ]
+    },
+    {
+      "id": "520053",
+      "name": "Finanzas Personales y Nuevos Negocios",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "4125"
+      ]
+    },
+    {
+      "id": "520054",
+      "name": "Gestión del Talento Global",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520037"
+      ]
+    },
+    {
+      "id": "520055",
+      "name": "Gestión de Personas por Competencias",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520037"
+      ]
+    },
+    {
+      "id": "520056",
+      "name": "Branding Estratégico",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520039"
+      ]
+    },
+    {
+      "id": "520057",
+      "name": "Taller de Marketing Digital",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520039"
+      ]
+    },
+    {
+      "id": "520062",
+      "name": "E.R.P. para la Gestión Empresarial",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520044"
+      ]
+    },
+    {
+      "id": "520063",
+      "name": "Turismo Sostenible",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520036"
+      ]
+    },
+    {
+      "id": "520064",
+      "name": "Agilidad Organizacional",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520045"
+      ]
+    },
+    {
+      "id": "540035",
+      "name": "Gerencia de Activos Financieros",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520070"
+      ]
+    },
+    {
+      "id": "520066",
+      "name": "Marca Personal y Gestión de Carrera",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520041"
+      ]
+    },
+    {
+      "id": "520067",
+      "name": "C.R.M. y Fidelización del Cliente",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520042"
+      ]
+    },
+    {
+      "id": "520071",
+      "name": "Gestión de Startups",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520058"
+      ]
+    },
+    {
+      "id": "2165",
+      "name": "Juego de Negocios",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520058"
+      ]
+    },
+    {
+      "id": "520073",
+      "name": "Gerencia de Proyectos",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520059"
+      ]
+    },
+    {
+      "id": "3319",
+      "name": "Gestión de Inversiones I",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520019"
+      ]
+    },
+    {
+      "id": "3276",
+      "name": "Herramientas Informáticas para las Finanzas",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520019"
+      ]
+    },
+    {
+      "id": "520072",
+      "name": "Gestión Ambiental",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520060"
+      ]
+    },
+    {
+      "id": "520074",
+      "name": "Seguridad, Salud Ocupacional y Bienestar Organizacional",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520049"
+      ]
+    },
+    {
+      "id": "520017",
+      "name": "Resolución de Conflictos y Negociación",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520049"
+      ]
+    },
+    {
+      "id": "520075",
+      "name": "Trade y Retail Marketing",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520050"
+      ]
+    },
+    {
+      "id": "520079",
+      "name": "Business Analytics",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520068"
+      ]
+    },
+    {
+      "id": "520080",
+      "name": "Inteligencia Artificial para la Gestión",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520044"
+      ]
+    },
+    {
+      "id": "2372",
+      "name": "Gestión del Servicio",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520059"
+      ]
+    },
+    {
+      "id": "520081",
+      "name": "Modelos de Optimización Logística",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520059"
+      ]
+    },
+    {
+      "id": "520082",
+      "name": "Gestión de Riesgos y Seguros",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520070"
+      ]
+    },
+    {
+      "id": "3321",
+      "name": "Gestión de Inversiones II",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "3319"
+      ]
+    },
+    {
+      "id": "520083",
+      "name": "Coaching, Mindfulness e Inteligencia Emocional",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520048"
+      ]
+    },
+    {
+      "id": "520084",
+      "name": "Gobierno Corporativo y Compliance",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520060"
+      ]
+    },
+    {
+      "id": "520085",
+      "name": "Marketing B2B",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520050"
+      ]
+    }
+  ]
+}

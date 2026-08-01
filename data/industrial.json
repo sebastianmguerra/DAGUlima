@@ -1,0 +1,823 @@
+{
+  "name": "Ingeniería Industrial 2026-1",
+  "courses": [
+    {
+      "id": "510003",
+      "name": "Lenguaje y Comunicación I",
+      "level": 1,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "510006",
+      "name": "Procesos Psicológicos",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510007",
+      "name": "Ética Ciudadana",
+      "level": 1,
+      "type": "O",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "510005",
+      "name": "Introducción a la Ingeniería",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6508",
+      "name": "Metodologías de Investigación",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510014",
+      "name": "Precálculo",
+      "level": 1,
+      "type": "O",
+      "credits": 5,
+      "reqs": []
+    },
+    {
+      "id": "6505",
+      "name": "Lenguaje y Comunicación II",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "510003"
+      ]
+    },
+    {
+      "id": "510010",
+      "name": "Filosofía Aplicada",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510015",
+      "name": "Fundamentos de Economía",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510011",
+      "name": "Introducción al Comercio Internacional",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6384",
+      "name": "Álgebra Lineal",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "510014"
+      ]
+    },
+    {
+      "id": "6503",
+      "name": "Cálculo I",
+      "level": 2,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "510014"
+      ]
+    },
+    {
+      "id": "560038",
+      "name": "Sistemas Organizacionales / Organizational Systems",
+      "level": 3,
+      "type": "O",
+      "credits": 2,
+      "reqs": [
+        "510015"
+      ]
+    },
+    {
+      "id": "560039",
+      "name": "Diseño Asistido por el Computador",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6384"
+      ]
+    },
+    {
+      "id": "560040",
+      "name": "Inteligencia Artificial Aplicada",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560041",
+      "name": "Física I",
+      "level": 3,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "6503"
+      ]
+    },
+    {
+      "id": "5643",
+      "name": "Química General",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "560042",
+      "name": "Cálculo II",
+      "level": 3,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "6503"
+      ]
+    },
+    {
+      "id": "560043",
+      "name": "Costeo de Operaciones",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560038"
+      ]
+    },
+    {
+      "id": "560044",
+      "name": "Fundamentos de Programación",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560040"
+      ]
+    },
+    {
+      "id": "560045",
+      "name": "Física II",
+      "level": 4,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "560041"
+      ]
+    },
+    {
+      "id": "560046",
+      "name": "Estadística y Probabilidad",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6503"
+      ]
+    },
+    {
+      "id": "5647",
+      "name": "Mecánica",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "560039",
+        "560041"
+      ]
+    },
+    {
+      "id": "560047",
+      "name": "Cálculo III",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560042"
+      ]
+    },
+    {
+      "id": "560048",
+      "name": "Investigación de Operaciones I",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "560044"
+      ]
+    },
+    {
+      "id": "IND_002",
+      "name": "Fundamentos de Operaciones y Logística",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "560043"
+      ]
+    },
+    {
+      "id": "560050",
+      "name": "Ingeniería Económica",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "560043"
+      ]
+    },
+    {
+      "id": "560051",
+      "name": "Electricidad y Electrónica",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560045"
+      ]
+    },
+    {
+      "id": "560052",
+      "name": "Ecuaciones Diferenciales",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560047"
+      ]
+    },
+    {
+      "id": "560053",
+      "name": "Diseño de Experimentos",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "560046"
+      ]
+    },
+    {
+      "id": "560054",
+      "name": "Investigación de Operaciones II",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "560048"
+      ]
+    },
+    {
+      "id": "560055",
+      "name": "Ergonomía y Diseño del Trabajo",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "560046"
+      ]
+    },
+    {
+      "id": "560056",
+      "name": "Innovación en Ingeniería",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "5647",
+        "560051"
+      ]
+    },
+    {
+      "id": "560012",
+      "name": "Planeamiento y Control de Operaciones",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "IND_002"
+      ]
+    },
+    {
+      "id": "560057",
+      "name": "Procesos Industriales",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "560045",
+        "5643"
+      ]
+    },
+    {
+      "id": "IND_003",
+      "name": "Electivo",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560058",
+      "name": "Ingeniería Financiera",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560050"
+      ]
+    },
+    {
+      "id": "560059",
+      "name": "Diseño de Instalaciones",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560055"
+      ]
+    },
+    {
+      "id": "560060",
+      "name": "Inteligencia de Negocios",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560061",
+      "name": "Modelos de Sistemas Logísticos",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "IND_002"
+      ]
+    },
+    {
+      "id": "560062",
+      "name": "Calidad / Quality",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560053"
+      ]
+    },
+    {
+      "id": "560063",
+      "name": "Procesos de Manufactura",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560056"
+      ]
+    },
+    {
+      "id": "IND_004",
+      "name": "Electivo",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560064",
+      "name": "Simulación de Procesos",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "560054"
+      ]
+    },
+    {
+      "id": "560065",
+      "name": "Modelamiento Predictivo de Datos",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560060"
+      ]
+    },
+    {
+      "id": "560066",
+      "name": "Sistemas Integrados de Gestión",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560062"
+      ]
+    },
+    {
+      "id": "560067",
+      "name": "Gestión de Proyectos",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560068",
+      "name": "Análisis de Problemas de Ingeniería",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560061",
+        "560062"
+      ]
+    },
+    {
+      "id": "560069",
+      "name": "Automatización Industrial",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560063"
+      ]
+    },
+    {
+      "id": "IND_005",
+      "name": "Electivo",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560070",
+      "name": "Ética y Gestión Humana",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560071",
+      "name": "Proyecto de Ingeniería Aplicada I",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "560068"
+      ]
+    },
+    {
+      "id": "560072",
+      "name": "Ingeniería Comercial/ Commercial Engineering",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560061"
+      ]
+    },
+    {
+      "id": "IND_006",
+      "name": "Electivo",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "IND_007",
+      "name": "Electivo",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560073",
+      "name": "Proyecto De Ingeniería Aplicada II",
+      "level": 10,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "560071",
+        "560064"
+      ]
+    },
+    {
+      "id": "560074",
+      "name": "Gerencia Estratégica / Strategic Management",
+      "level": 10,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "560072",
+        "560058"
+      ]
+    },
+    {
+      "id": "IND_008",
+      "name": "Electivo",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "IND_009",
+      "name": "Electivo",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "IND_010",
+      "name": "Electivo",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560101",
+      "name": "Ingeniería de Seguridad",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560076",
+      "name": "Taller de Liderazgo",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560077",
+      "name": "Programación para Ingeniería",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560078",
+      "name": "Sistemas de Información Gerencial",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "IND_011",
+      "name": "Organizacional",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "5665",
+      "name": "Taller de Habilidades Gerenciales",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560079",
+      "name": "Gestión de Proyectos de Diseño",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560102",
+      "name": "Materiales en la Manufactura",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560081",
+      "name": "Transformación Digital",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560083",
+      "name": "Estrategia de Inteligencia Empresarial",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560084",
+      "name": "Supply Chain Management",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560085",
+      "name": "Compras y Gestión del Abastecimiento",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "5673",
+      "name": "Juego de Negocios",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "5662",
+      "name": "Formulación y Evaluación de Proyectos",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560032",
+      "name": "Metodologías Ágiles",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560035",
+      "name": "Dirección en Implementación de Proyectos",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560087",
+      "name": "Gestión del Comercio Internacional",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560088",
+      "name": "Creatividad, Innovación y Emprendimiento",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560089",
+      "name": "Diseño de Proyectos Sostenibles",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560090",
+      "name": "Tecnologías de Programación",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560091",
+      "name": "Diseño y Prototipado",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560092",
+      "name": "Robotic Process Automation",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560093",
+      "name": "Machine Learning",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560094",
+      "name": "Herramientas Informáticas",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560095",
+      "name": "Lean Six Sigma",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560097",
+      "name": "Ingeniería del Transporte y Distribución",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "5685",
+      "name": "Gestión de Operaciones de Servicios",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560098",
+      "name": "Gestión de Recursos",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560099",
+      "name": "Gestión de Riesgos y Portafolios",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560029",
+      "name": "Gerencia B2b",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560005",
+      "name": "Herramientas de Marketing Digital",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "560100",
+      "name": "Sostenibilidad Industrial",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    }
+  ]
+}

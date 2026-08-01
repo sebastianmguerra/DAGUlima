@@ -1,0 +1,720 @@
+{
+  "name": "Civil",
+  "courses": [
+    {
+      "id": "510003",
+      "name": "Lenguaje y Comunicación I",
+      "level": 1,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "510006",
+      "name": "Procesos Psicológicos",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510007",
+      "name": "Ética Ciudadana",
+      "level": 1,
+      "type": "O",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "510005",
+      "name": "Introducción a la Ingeniería",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6508",
+      "name": "Metodologías de Investigación",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510014",
+      "name": "Precálculo",
+      "level": 1,
+      "type": "O",
+      "credits": 5,
+      "reqs": []
+    },
+    {
+      "id": "6505",
+      "name": "Lenguaje y Comunicación II",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "510003"
+      ]
+    },
+    {
+      "id": "510010",
+      "name": "Filosofía Aplicada",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510015",
+      "name": "Fundamentos de Economía",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510011",
+      "name": "Introducción al Comercio Internacional",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6384",
+      "name": "Álgebra Lineal",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "510014"
+      ]
+    },
+    {
+      "id": "6503",
+      "name": "Cálculo I",
+      "level": 2,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "510014"
+      ]
+    },
+    {
+      "id": "1459",
+      "name": "Cálculo II",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6503"
+      ]
+    },
+    {
+      "id": "710042",
+      "name": "Topografía",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "710081",
+      "name": "Probabilidad y Estadística Aplicada",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6503"
+      ]
+    },
+    {
+      "id": "710072",
+      "name": "Ingeniería Gráfica",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "710085",
+      "name": "Química Aplicada",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "1472",
+      "name": "Física I",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6384"
+      ]
+    },
+    {
+      "id": "560040",
+      "name": "Inteligencia Artificial Aplicada",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "710086",
+      "name": "Tecnología de Construcción I",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "710087",
+      "name": "Geología Aplicada",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "710042"
+      ]
+    },
+    {
+      "id": "710073",
+      "name": "Modelación de Información de Edificaciones I",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "710072"
+      ]
+    },
+    {
+      "id": "710088",
+      "name": "Física II",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "1472"
+      ]
+    },
+    {
+      "id": "710051",
+      "name": "Ecuaciones Diferenciales",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "1459"
+      ]
+    },
+    {
+      "id": "710010",
+      "name": "Tecnología del Concreto",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "710085"
+      ]
+    },
+    {
+      "id": "710006",
+      "name": "Programación Digital",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "710081"
+      ]
+    },
+    {
+      "id": "710014",
+      "name": "Mecánica de Suelos I",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "710087"
+      ]
+    },
+    {
+      "id": "710011",
+      "name": "Dinámica",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "710051"
+      ]
+    },
+    {
+      "id": "710074",
+      "name": "Modelación de Información de Edificaciones II",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "710073"
+      ]
+    },
+    {
+      "id": "710009",
+      "name": "Estática",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "1472"
+      ]
+    },
+    {
+      "id": "710089",
+      "name": "Tecnología de Construcción II",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "710086"
+      ]
+    },
+    {
+      "id": "710053",
+      "name": "Ingeniería Ambiental",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "710089"
+      ]
+    },
+    {
+      "id": "710019",
+      "name": "Mecánica de Suelos II",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "710014"
+      ]
+    },
+    {
+      "id": "710090",
+      "name": "Tecnología de los Materiales",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "710010"
+      ]
+    },
+    {
+      "id": "710091",
+      "name": "Instalaciones en Edificaciones",
+      "level": 6,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "710074",
+        "710088"
+      ]
+    },
+    {
+      "id": "710092",
+      "name": "Resistencia de Materiales",
+      "level": 6,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "710009"
+      ]
+    },
+    {
+      "id": "710093",
+      "name": "Costos y Presupuestos",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "710086"
+      ]
+    },
+    {
+      "id": "710016",
+      "name": "Mecánica de Fluidos",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "710011"
+      ]
+    },
+    {
+      "id": "710094",
+      "name": "Gestión de Proyectos de Construcción",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "710093"
+      ]
+    },
+    {
+      "id": "710024",
+      "name": "Ingeniería de Transporte I",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "710019"
+      ]
+    },
+    {
+      "id": "CIV_001",
+      "name": "Regional",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "710089"
+      ]
+    },
+    {
+      "id": "710026",
+      "name": "Análisis Estructural I",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "710092"
+      ]
+    },
+    {
+      "id": "710096",
+      "name": "Ética, Liderazgo y Responsabilidad Social",
+      "level": 7,
+      "type": "O",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "710045",
+      "name": "Métodos Numéricos",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "710006"
+      ]
+    },
+    {
+      "id": "710059",
+      "name": "Hidráulica",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "710016"
+      ]
+    },
+    {
+      "id": "CIV_002",
+      "name": "Mantenimiento",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "710094"
+      ]
+    },
+    {
+      "id": "710078",
+      "name": "Gestión Estratégica de Contratos",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "710094"
+      ]
+    },
+    {
+      "id": "710060",
+      "name": "Concreto Armado I",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "710092"
+      ]
+    },
+    {
+      "id": "710031",
+      "name": "Ingeniería Sismorresistente",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "710026"
+      ]
+    },
+    {
+      "id": "CIV_003",
+      "name": "Electivo 1",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "710027",
+      "name": "Hidrología",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "710059"
+      ]
+    },
+    {
+      "id": "CIV_004",
+      "name": "Electivo 2",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "CIV_005",
+      "name": "Electivo 3",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "710099",
+      "name": "Estructuras Metálicas",
+      "level": 10,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "710026"
+      ]
+    },
+    {
+      "id": "CIV_006",
+      "name": "Electivo 4",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "CIV_007",
+      "name": "Electivo 5",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "710083",
+      "name": "Gestión de Calidad",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "710097",
+      "name": "Diseño y Construcción Virtual",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "710094"
+      ]
+    },
+    {
+      "id": "710034",
+      "name": "Análisis Estructural II",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "710026"
+      ]
+    },
+    {
+      "id": "710082",
+      "name": "Geomática",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "710046",
+      "name": "Gestión de Seguridad y Salud en el Trabajo",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "710065",
+      "name": "Concreto Armado II",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "710060"
+      ]
+    },
+    {
+      "id": "710066",
+      "name": "Concreto Preesforzado",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "710060"
+      ]
+    },
+    {
+      "id": "710021",
+      "name": "Abastecimiento de Agua y Saneamiento",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "710059"
+      ]
+    },
+    {
+      "id": "710039",
+      "name": "Puentes",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "710060"
+      ]
+    },
+    {
+      "id": "710048",
+      "name": "Túneles",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "710079",
+      "name": "Gestión de Riesgos de Desastres",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "CIV_001"
+      ]
+    },
+    {
+      "id": "710084",
+      "name": "Geotecnia en Infraestructura de Transporte",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "710024"
+      ]
+    },
+    {
+      "id": "710098",
+      "name": "Productividad en Obras",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "710094"
+      ]
+    },
+    {
+      "id": "710101",
+      "name": "Ingeniería de los Recursos Hidráulicos",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "710027"
+      ]
+    },
+    {
+      "id": "710100",
+      "name": "Albañilería",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "710070",
+      "name": "Gestión y Desarrollo Inmobiliario",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "710080",
+      "name": "Gestión de Riesgos en Proyectos",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "710102",
+      "name": "Ingeniería de Transporte II",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "710024"
+      ]
+    },
+    {
+      "id": "710069",
+      "name": "Infraestructuras Sostenibles",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "CIV_002"
+      ]
+    },
+    {
+      "id": "710064",
+      "name": "Pavimentos",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "710024"
+      ]
+    },
+    {
+      "id": "CIV_008",
+      "name": "Organizacional",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    }
+  ]
+}

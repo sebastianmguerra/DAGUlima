@@ -1,0 +1,760 @@
+{
+  "name": "Psicologia",
+  "courses": [
+    {
+      "id": "510003",
+      "name": "LENGUAJE Y COMUNICACIÓN I",
+      "level": 1,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "510006",
+      "name": "PROCESOS PSICOLÓGICOS",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510007",
+      "name": "ÉTICA CIUDADANA",
+      "level": 1,
+      "type": "O",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "6508",
+      "name": "METODOLOGÍAS DE INVESTIGACIÓN",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "PSI_001",
+      "name": "CONTEMPORÁNEA",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510009",
+      "name": "LÓGICA Y ANÁLISIS CUANTITATIVO",
+      "level": 1,
+      "type": "O",
+      "credits": 5,
+      "reqs": []
+    },
+    {
+      "id": "6511",
+      "name": "LENGUAJE Y COMUNICACIÓN II",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "510003"
+      ]
+    },
+    {
+      "id": "510010",
+      "name": "FILOSOFÍA APLICADA",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6510",
+      "name": "ECONOMÍA Y EMPRESA",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510011",
+      "name": "INTRODUCCIÓN AL COMERCIO INTERNACIONAL",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510012",
+      "name": "APRECIACIÓN LITERARIA",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "510003"
+      ]
+    },
+    {
+      "id": "510013",
+      "name": "HISTORIA GENERAL DEL ARTE",
+      "level": 2,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "510006"
+      ]
+    },
+    {
+      "id": "500009",
+      "name": "REALIDAD NACIONAL",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6510"
+      ]
+    },
+    {
+      "id": "500010",
+      "name": "REDACCIÓN CIENTÍFICA",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6511"
+      ]
+    },
+    {
+      "id": "6385",
+      "name": "CONDUCTA SOCIAL",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "6386",
+      "name": "PROCESOS COGNITIVOS BÁSICOS",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "6248",
+      "name": "FILOSOFÍA DE LA CIENCIA",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "510010"
+      ]
+    },
+    {
+      "id": "6387",
+      "name": "PSICOBIOLOGÍA HUMANA I",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "6388",
+      "name": "PROCESOS COGNITIVOS SUPERIORES",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6386"
+      ]
+    },
+    {
+      "id": "6392",
+      "name": "DESARROLLO HUMANO I",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6386"
+      ]
+    },
+    {
+      "id": "6150",
+      "name": "PSICOLOGÍA DE LA PERSONALIDAD",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6387"
+      ]
+    },
+    {
+      "id": "6389",
+      "name": "PSICOBIOLOGÍA HUMANA II",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6387"
+      ]
+    },
+    {
+      "id": "6390",
+      "name": "SEXUALIDAD HUMANA",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6387"
+      ]
+    },
+    {
+      "id": "6391",
+      "name": "HISTORIA Y SISTEMAS PSICOLÓGICOS",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6248"
+      ]
+    },
+    {
+      "id": "6156",
+      "name": "PSICOLOGÍA DEL APRENDIZAJE",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6388"
+      ]
+    },
+    {
+      "id": "6393",
+      "name": "DESAROLLO HUMANO II",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6392"
+      ]
+    },
+    {
+      "id": "6394",
+      "name": "ESTADÍSTICA APLICADA A LA PSICOLOGÍA",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "6031",
+      "name": "TÉCNICAS DE ENTREVISTA Y OBSERVACIÓN",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6150"
+      ]
+    },
+    {
+      "id": "6258",
+      "name": "PSICOLOGÍA DE LA SALUD",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6385"
+      ]
+    },
+    {
+      "id": "6395",
+      "name": "TÉCNICAS DE GRUPOS",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6385"
+      ]
+    },
+    {
+      "id": "PSI_002",
+      "name": "COGNITIVOS",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6031"
+      ]
+    },
+    {
+      "id": "PSI_003",
+      "name": "CUANTITATIVA",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6394",
+        "6150"
+      ]
+    },
+    {
+      "id": "6292",
+      "name": "COMPORTAMIENTO ORGANIZACIONAL I",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6395"
+      ]
+    },
+    {
+      "id": "6138",
+      "name": "EPISTEMOLOGÍA DE LA PSICOLOGÍA",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6391"
+      ]
+    },
+    {
+      "id": "PSI_004",
+      "name": "ELECTIVO I",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6399",
+      "name": "PSICOLOGÍA DEL DEPORTE",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "6395"
+      ]
+    },
+    {
+      "id": "500001",
+      "name": "INTRODUCCIÓN A LA NEUROCIENCIA",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "500002",
+      "name": "INTRODUCCIÓN A LA PSICOLOGÍA FORENSE",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6022",
+      "name": "DESARROLLO DE HABILIDADES SOCIALES",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6400",
+      "name": "PSICOLOGÍA EDUCATIVA",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6392",
+        "6156"
+      ]
+    },
+    {
+      "id": "PSI_005",
+      "name": "PERSONALIDAD",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "PSI_002"
+      ]
+    },
+    {
+      "id": "PSI_006",
+      "name": "CUALITATIVA",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "PSI_003"
+      ]
+    },
+    {
+      "id": "6403",
+      "name": "EVALUACIÓN PROYECTIVA DE LA PERSONALIDAD",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "6293",
+      "name": "COMPORTAMIENTO ORGANIZACIONAL II",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6292"
+      ]
+    },
+    {
+      "id": "PSI_007",
+      "name": "ELECTIVO II",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "PSI_008",
+      "name": "APLICADAS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6404",
+      "name": "GESTIÓN POR COMPETENCIAS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "6292"
+      ]
+    },
+    {
+      "id": "6396",
+      "name": "LIDERAZGO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "PSI_009",
+      "name": "BIOLÓGICAS DEL DEPORTE",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6405",
+      "name": "EVALUACIÓN PSICOPEDAGÓGICA",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6400"
+      ]
+    },
+    {
+      "id": "PSI_010",
+      "name": "PSICOLÓGICOS",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "PSI_005"
+      ]
+    },
+    {
+      "id": "6407",
+      "name": "INTRODUCCIÓN A LA PSICOTERAPIA I",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6403"
+      ]
+    },
+    {
+      "id": "6409",
+      "name": "PSICOLOGÍA COMUNITARIA",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6292"
+      ]
+    },
+    {
+      "id": "PSI_011",
+      "name": "ELECTIVO III",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "PSI_012",
+      "name": "RIESGO EN AMBIENTES EDUCATIVOS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "6400"
+      ]
+    },
+    {
+      "id": "6412",
+      "name": "PROBLEMAS DE APRENDIZAJE",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "6400"
+      ]
+    },
+    {
+      "id": "6414",
+      "name": "RECLUTAMIENTO Y SELECCIÓN DEL TALENTO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "6293",
+        "6399"
+      ]
+    },
+    {
+      "id": "PSI_013",
+      "name": "EN CONTEXTOS DIVERSOS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "PSI_014",
+      "name": "ORGANIZACIONAL",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6416",
+      "name": "PSICOLOGÍA INSTRUCCIONAL",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6405"
+      ]
+    },
+    {
+      "id": "6343",
+      "name": "DIAGNÓSTICO E INFORME PSICOLÓGICO",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6403",
+        "PSI_005"
+      ]
+    },
+    {
+      "id": "6417",
+      "name": "INTRODUCCIÓN A LA PSICOTERAPIA II",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6407"
+      ]
+    },
+    {
+      "id": "PSI_015",
+      "name": "EN PROBLEMAS PSICOSOCIALES",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6409"
+      ]
+    },
+    {
+      "id": "6419",
+      "name": "CAPACITACIÓN Y DESARROLLO DEL TALENTO",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "PSI_016",
+      "name": "ELECTIVO IV",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6420",
+      "name": "MODIFICACIÓN DE CONDUCTA EN EL AULA",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "6400"
+      ]
+    },
+    {
+      "id": "6421",
+      "name": "PSICOLOGÍA FORENSE",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6422",
+      "name": "EVALUACIÓN DE DESEMPEÑO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6423",
+      "name": "ORIENTACIÓN VOCACIONAL Y OCUPACIONAL",
+      "level": 10,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6416"
+      ]
+    },
+    {
+      "id": "6424",
+      "name": "PSICOLOGÍA DE LA EXCEPCIONALIDAD",
+      "level": 10,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6343"
+      ]
+    },
+    {
+      "id": "6208",
+      "name": "ÉTICA PROFESIONAL",
+      "level": 10,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6138"
+      ]
+    },
+    {
+      "id": "6297",
+      "name": "DISEÑO Y EVALUACIÓN DE PROYECTOS",
+      "level": 10,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "PSI_010"
+      ]
+    },
+    {
+      "id": "6294",
+      "name": "CONSEJERÍA PSICOLÓGICA",
+      "level": 10,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6343"
+      ]
+    },
+    {
+      "id": "PSI_017",
+      "name": "ORGANIZACIONAL",
+      "level": 10,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6419"
+      ]
+    },
+    {
+      "id": "PSI_018",
+      "name": "ELECTIVO V",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "PSI_019",
+      "name": "ADOLESCENTES",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "6343"
+      ]
+    },
+    {
+      "id": "6427",
+      "name": "DESARROLLO ORGANIZACIONAL",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "6419",
+        "PSI_017"
+      ]
+    },
+    {
+      "id": "PSI_020",
+      "name": "ELECTIVO VI",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "PSI_021",
+      "name": "NEUROCIENCIAS APLICADAS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "PSI_022",
+      "name": "ELECTIVO 7",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "500007",
+      "name": "INTERVENCIÓN PSICOLÓGICA EN EL DEPORTE",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "500008",
+      "name": "INTERVENCIÓN PSICOLÓGICA FORENSE",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    }
+  ]
+}

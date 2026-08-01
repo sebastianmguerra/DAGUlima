@@ -1,0 +1,739 @@
+{
+  "name": "Marketing",
+  "courses": [
+    {
+      "id": "510001",
+      "name": "Globalización y Realidad Nacional",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6506",
+      "name": "Lenguaje y Comunicación I",
+      "level": 1,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "6508",
+      "name": "Metodologías de Investigación",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6505",
+      "name": "Desarrollo Personal y Social",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6382",
+      "name": "Matemática Básica",
+      "level": 1,
+      "type": "O",
+      "credits": 5,
+      "reqs": []
+    },
+    {
+      "id": "510002",
+      "name": "Ética Cívica",
+      "level": 1,
+      "type": "O",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "6510",
+      "name": "Economía y Empresa",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6511",
+      "name": "Lenguaje y Comunicación II",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6506"
+      ]
+    },
+    {
+      "id": "6512",
+      "name": "Procesos Sociales y Políticos",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6513",
+      "name": "Temas de Filosofía",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6502",
+      "name": "Estadística Básica para los Negocios",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6382"
+      ]
+    },
+    {
+      "id": "6337",
+      "name": "Matemática Aplicada a los Negocios",
+      "level": 2,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "6382"
+      ]
+    },
+    {
+      "id": "520002",
+      "name": "Estadística Empresarial I",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6502"
+      ]
+    },
+    {
+      "id": "4123",
+      "name": "Contabilidad General",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6337"
+      ]
+    },
+    {
+      "id": "520500",
+      "name": "Antropología del Consumidor",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6513"
+      ]
+    },
+    {
+      "id": "520503",
+      "name": "Introducción a las Finanzas",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6337"
+      ]
+    },
+    {
+      "id": "3232",
+      "name": "Matemática para la Gestión de Negocios",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6337"
+      ]
+    },
+    {
+      "id": "520004",
+      "name": "Herramientas Informáticas para la Gestión I",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6510"
+      ]
+    },
+    {
+      "id": "4384",
+      "name": "Costos y Presupuestos",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "4123"
+      ]
+    },
+    {
+      "id": "MAR_001",
+      "name": "Sociología del Consumidor",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520500"
+      ]
+    },
+    {
+      "id": "MAR_002",
+      "name": "Procesos de Marketing",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520500"
+      ]
+    },
+    {
+      "id": "520006",
+      "name": "Estadística Empresarial II",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520002"
+      ]
+    },
+    {
+      "id": "MAR_003",
+      "name": "Administración Empresarial y Marketing",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6510"
+      ]
+    },
+    {
+      "id": "3326",
+      "name": "Microeconomía / Microeconomics",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6510"
+      ]
+    },
+    {
+      "id": "520007",
+      "name": "Herramientas Informáticas para la Gestión II",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520004"
+      ]
+    },
+    {
+      "id": "520501",
+      "name": "Estadística Aplicada al Marketing",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "520006"
+      ]
+    },
+    {
+      "id": "MAR_004",
+      "name": "Consumidor y Experiencia del Cliente / Customer Experience",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "MAR_001"
+      ]
+    },
+    {
+      "id": "MAR_005",
+      "name": "Elaboración de Estados Financieros",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520503",
+        "4384"
+      ]
+    },
+    {
+      "id": "2447",
+      "name": "Administración de Canales de Distribución",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "MAR_002"
+      ]
+    },
+    {
+      "id": "2443",
+      "name": "Gestión de Producto y Marca",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "MAR_002"
+      ]
+    },
+    {
+      "id": "3325",
+      "name": "Macroeconomía / Macroeconomics",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "3326"
+      ]
+    },
+    {
+      "id": "2448",
+      "name": "Política y Fijación de Precios",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "3325"
+      ]
+    },
+    {
+      "id": "2454",
+      "name": "Operaciones Logísticas de Marketing",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "2447"
+      ]
+    },
+    {
+      "id": "2333",
+      "name": "Investigación Cuantitativa de Mercados",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "520501"
+      ]
+    },
+    {
+      "id": "2444",
+      "name": "Publicidad y Medios",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "2443"
+      ]
+    },
+    {
+      "id": "520503",
+      "name": "Branding",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "2443"
+      ]
+    },
+    {
+      "id": "2332",
+      "name": "Investigación Cualitativa de Mercados",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "MAR_004"
+      ]
+    },
+    {
+      "id": "MAR_006",
+      "name": "Ciencia de Datos Aplicado al Marketing",
+      "level": 6,
+      "type": "O",
+      "credits": 2,
+      "reqs": [
+        "520501"
+      ]
+    },
+    {
+      "id": "MAR_007",
+      "name": "Dirección Estratégica de Marketing",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "2333"
+      ]
+    },
+    {
+      "id": "2450",
+      "name": "Finanzas para Marketing",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "MAR_005"
+      ]
+    },
+    {
+      "id": "2460",
+      "name": "Marketing Social",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "2333"
+      ]
+    },
+    {
+      "id": "2455",
+      "name": "Comunicación e Imagen Corporativa",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "2444"
+      ]
+    },
+    {
+      "id": "MAR_008",
+      "name": "Transformación Digital y Marketing",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "2444"
+      ]
+    },
+    {
+      "id": "MAR_009",
+      "name": "Endomarketing y Gestión de Personas",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "MAR_003"
+      ]
+    },
+    {
+      "id": "2343",
+      "name": "Neuromarketing",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "2333"
+      ]
+    },
+    {
+      "id": "4164",
+      "name": "Promoción y Marketing BTL",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "2448"
+      ]
+    },
+    {
+      "id": "520504",
+      "name": "Diseño de la Propuesta de Valor",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "2443"
+      ]
+    },
+    {
+      "id": "MAR_010",
+      "name": "Métricas de Marketing",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "2448"
+      ]
+    },
+    {
+      "id": "MAR_011",
+      "name": "Metodologías Ágiles en Marketing",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520004"
+      ]
+    },
+    {
+      "id": "2419",
+      "name": "Gerencia de Ventas",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "2454"
+      ]
+    },
+    {
+      "id": "MAR_012",
+      "name": "Sustainability",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "MAR_009"
+      ]
+    },
+    {
+      "id": "4165",
+      "name": "Herramientas Estratégicas de Negocios y Marketing",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "MAR_007"
+      ]
+    },
+    {
+      "id": "2336",
+      "name": "Métodos y Técnicas de Evaluación de Proyectos",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "2450"
+      ]
+    },
+    {
+      "id": "520506",
+      "name": "E-Commerce",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "MAR_008"
+      ]
+    },
+    {
+      "id": "3161",
+      "name": "Inteligencia Comercial",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "MAR_007"
+      ]
+    },
+    {
+      "id": "2475",
+      "name": "Taller de Investigación de Mercados",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "2333"
+      ]
+    },
+    {
+      "id": "520509",
+      "name": "Marketing Mobile",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "MAR_008"
+      ]
+    },
+    {
+      "id": "520510",
+      "name": "Simulación de Decisiones de Marketing",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "MAR_007"
+      ]
+    },
+    {
+      "id": "4166",
+      "name": "Gerencia de Marketing Deportivo",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "2460"
+      ]
+    },
+    {
+      "id": "2338",
+      "name": "Trade Marketing y Merchandising",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "2419"
+      ]
+    },
+    {
+      "id": "520507",
+      "name": "Marketing de Servicios",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "2460",
+        "4165"
+      ]
+    },
+    {
+      "id": "520513",
+      "name": "Analítica de Datos",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "MAR_008"
+      ]
+    },
+    {
+      "id": "2457",
+      "name": "Negociación Comercial",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "2455"
+      ]
+    },
+    {
+      "id": "520514",
+      "name": "Marketing Personal",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "2460"
+      ]
+    },
+    {
+      "id": "520515",
+      "name": "Taller de Inbound Marketing",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "MAR_008"
+      ]
+    },
+    {
+      "id": "2340",
+      "name": "Marketing de Retailers",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "4165"
+      ]
+    },
+    {
+      "id": "MAR_013",
+      "name": "Marketing y Ventas B2b",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520503"
+      ]
+    },
+    {
+      "id": "MAR_014",
+      "name": "Emprendimientos de Marketing 5.0",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520506"
+      ]
+    },
+    {
+      "id": "MAR_015",
+      "name": "Patrocinio de Marcas y Sponsoring",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "520507"
+      ]
+    },
+    {
+      "id": "MAR_016",
+      "name": "Estrategias de Marketing Internacional",
+      "level": 10,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "2338"
+      ]
+    },
+    {
+      "id": "MAR_017",
+      "name": "Estrategia de Relacionamiento y Fidelización",
+      "level": 10,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "4165"
+      ]
+    },
+    {
+      "id": "520511",
+      "name": "Plan de Marketing",
+      "level": 10,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "2336"
+      ]
+    },
+    {
+      "id": "520517",
+      "name": "Planeamiento Estratégico Publicitario",
+      "level": 10,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "2444"
+      ]
+    },
+    {
+      "id": "2341",
+      "name": "Marketing de Centros Comerciales e Hipermercados",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "2419"
+      ]
+    },
+    {
+      "id": "2342",
+      "name": "Marketing en la Base de la Pirámide",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "2336"
+      ]
+    }
+  ]
+}

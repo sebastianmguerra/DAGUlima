@@ -1,0 +1,1055 @@
+{
+  "name": "Comunicación 2025-1",
+  "courses": [
+    {
+      "id": "510001",
+      "name": "GLOBALIZACIÓN Y REALIDAD NACIONAL",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6506",
+      "name": "LENGUAJE Y COMUNICACIÓN I",
+      "level": 1,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "6508",
+      "name": "METODOLOGÍAS DE INVESTIGACIÓN",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6505",
+      "name": "DESARROLLO PERSONAL Y SOCIAL",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6383",
+      "name": "FUNDAMENTOS DE MATEMÁTICA",
+      "level": 1,
+      "type": "O",
+      "credits": 5,
+      "reqs": []
+    },
+    {
+      "id": "510002",
+      "name": "ÉTICA CÍVICA",
+      "level": 1,
+      "type": "O",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "6510",
+      "name": "ECONOMÍA Y EMPRESA",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6511",
+      "name": "LENGUAJE Y COMUNICACIÓN II",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6506"
+      ]
+    },
+    {
+      "id": "6512",
+      "name": "PROCESOS SOCIALES Y POLÍTICOS",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6513",
+      "name": "TEMAS DE FILOSOFÍA",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6514",
+      "name": "LITERATURA Y SOCIEDAD",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6506"
+      ]
+    },
+    {
+      "id": "6515",
+      "name": "ARTE Y CULTURA",
+      "level": 2,
+      "type": "O",
+      "credits": 5,
+      "reqs": []
+    },
+    {
+      "id": "550001",
+      "name": "STORYTELLING",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6511"
+      ]
+    },
+    {
+      "id": "COM_001",
+      "name": "GAMIFICACIÓN",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "8067",
+      "name": "FUNDAMENTOS DE LA COMUNICACIÓN",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6512"
+      ]
+    },
+    {
+      "id": "8891",
+      "name": "ESTÉTICAS CONTEMPORÁNEAS",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6515"
+      ]
+    },
+    {
+      "id": "8284",
+      "name": "LENGUAJE GRÁFICO",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "8283",
+      "name": "LENGUAJE AUDIOVISUAL",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "COM_002",
+      "name": "FUNDAMENTOS DE PUBLICIDAD Y MARKETING",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "550003",
+      "name": "BASES DE LA INFORMACIÓN",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "550001"
+      ]
+    },
+    {
+      "id": "550004",
+      "name": "COMUNICACIÓN Y DESARROLLO",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "8067"
+      ]
+    },
+    {
+      "id": "COM_003",
+      "name": "TÉCNICAS FOTOGRÁFICAS",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "8284"
+      ]
+    },
+    {
+      "id": "550052",
+      "name": "COMUNICACIÓN Y EMPRESA",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "8067"
+      ]
+    },
+    {
+      "id": "8335",
+      "name": "TÉCNICAS AUDIOVISUALES",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "8123",
+      "name": "COMPORTAMIENTO DEL CONSUMIDOR",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "COM_002"
+      ]
+    },
+    {
+      "id": "550007",
+      "name": "PRODUCCIÓN INFORMATIVA",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550001"
+      ]
+    },
+    {
+      "id": "COM_004",
+      "name": "MARCA PERSONAL Y LIDERAZGO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "8067"
+      ]
+    },
+    {
+      "id": "COM_005",
+      "name": "TALLER DE ACTUACIÓN",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "550009",
+      "name": "MUSICALIZACIÓN",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "550010",
+      "name": "SOCIEDAD Y COMUNICACIÓN",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "8067"
+      ]
+    },
+    {
+      "id": "8039",
+      "name": "NARRATIVA AUDIOVISUAL",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "550001"
+      ]
+    },
+    {
+      "id": "COM_006",
+      "name": "TÉCNICAS DE AUDIO",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "8335"
+      ]
+    },
+    {
+      "id": "8896",
+      "name": "TÉCNICAS DE DISEÑO",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "8284"
+      ]
+    },
+    {
+      "id": "8108",
+      "name": "GÉNEROS AUDIOVISUALES",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "8283"
+      ]
+    },
+    {
+      "id": "8202",
+      "name": "ESTRATEGIAS DE MARKETING",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "COM_002"
+      ]
+    },
+    {
+      "id": "COM_007",
+      "name": "POSPRODUCCIÓN AUDIOVISUAL",
+      "level": 11,
+      "type": "E",
+      "credits": 4,
+      "reqs": [
+        "8335"
+      ]
+    },
+    {
+      "id": "8897",
+      "name": "PUBLICIDAD Y PROMOCIÓN",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "COM_002"
+      ]
+    },
+    {
+      "id": "8898",
+      "name": "MEDIOS Y OPINIÓN PÚBLICA",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550003"
+      ]
+    },
+    {
+      "id": "550011",
+      "name": "IDENTIDAD Y CULTURA CORPORATIVA",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550052"
+      ]
+    },
+    {
+      "id": "550012",
+      "name": "DIAGNÓSTICO DE LA COMUNICACIÓN",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550004"
+      ]
+    },
+    {
+      "id": "COM_008",
+      "name": "MEDIOS Y DESARROLLO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550004"
+      ]
+    },
+    {
+      "id": "COM_009",
+      "name": "PERIODISMO TRANSMEDIA",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550003"
+      ]
+    },
+    {
+      "id": "COM_010",
+      "name": "TÉCNICAS DE ANIMACIÓN",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "8284"
+      ]
+    },
+    {
+      "id": "COM_011",
+      "name": "DIRECCIÓN DE ARTES VISUALES",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "8891"
+      ]
+    },
+    {
+      "id": "550017",
+      "name": "TALLER DE FOTOGRAFÍA",
+      "level": 11,
+      "type": "E",
+      "credits": 4,
+      "reqs": [
+        "COM_003"
+      ]
+    },
+    {
+      "id": "COM_012",
+      "name": "DISEÑO Y PRODUCCIÓN DE ARTE",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "8891"
+      ]
+    },
+    {
+      "id": "550018",
+      "name": "TÉCNICAS DE INVESTIGACIÓN",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "550010"
+      ]
+    },
+    {
+      "id": "8336",
+      "name": "TALLER DE VIDEO*",
+      "level": 6,
+      "type": "O",
+      "credits": 6,
+      "reqs": [
+        "8335",
+        "8039"
+      ]
+    },
+    {
+      "id": "COM_013",
+      "name": "COMUNICACIÓN Y EXPERIENCIA DE USUARIO",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "8896"
+      ]
+    },
+    {
+      "id": "8069",
+      "name": "HISTORIA Y ESTÉTICA DEL CINE",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "8283"
+      ]
+    },
+    {
+      "id": "8099",
+      "name": "CREATIVIDAD PUBLICITARIA",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "COM_002"
+      ]
+    },
+    {
+      "id": "8345",
+      "name": "ESTRATEGIA DE MEDIOS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "8897"
+      ]
+    },
+    {
+      "id": "COM_014",
+      "name": "CRÓNICAS Y ENTREVISTAS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550007"
+      ]
+    },
+    {
+      "id": "8958",
+      "name": "PLANEAMIENTO ESTRATÉGICO DE LA COMUNICACIÓN",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "COM_002"
+      ]
+    },
+    {
+      "id": "550019",
+      "name": "SOSTENIBILIDAD Y RESPONSABILIDAD SOCIAL",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550052"
+      ]
+    },
+    {
+      "id": "COM_015",
+      "name": "TÉCNICAS PARA REPORTAJES",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550007"
+      ]
+    },
+    {
+      "id": "550021",
+      "name": "GESTIÓN DE CONTENIDOS AUDIOVISUALES",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "8335"
+      ]
+    },
+    {
+      "id": "COM_016",
+      "name": "GESTIÓN DE PROYECTOS DE VIDEOJUEGOS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "COM_001"
+      ]
+    },
+    {
+      "id": "550022",
+      "name": "DISEÑO SONORO",
+      "level": 11,
+      "type": "E",
+      "credits": 4,
+      "reqs": [
+        "COM_006"
+      ]
+    },
+    {
+      "id": "550023",
+      "name": "MOTION GRAPHICS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "8896"
+      ]
+    },
+    {
+      "id": "COM_017",
+      "name": "DISEÑO VISUAL",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "8896"
+      ]
+    },
+    {
+      "id": "COM_018",
+      "name": "COLORIZACIÓN Y EFECTOS EN POSPRODUCCIÓN",
+      "level": 11,
+      "type": "E",
+      "credits": 4,
+      "reqs": [
+        "COM_007"
+      ]
+    },
+    {
+      "id": "8091",
+      "name": "PROCESOS INTERCULTURALES",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "550010"
+      ]
+    },
+    {
+      "id": "8200",
+      "name": "COMUNICACIÓN POLÍTICA",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "550010"
+      ]
+    },
+    {
+      "id": "8269",
+      "name": "EDUCACIÓN Y COMUNICACIÓN",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "550010"
+      ]
+    },
+    {
+      "id": "8972",
+      "name": "SEMIÓTICA NARRATIVA",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "8039"
+      ]
+    },
+    {
+      "id": "8054",
+      "name": "TALLER DE TELEVISIÓN*",
+      "level": 11,
+      "type": "E",
+      "credits": 6,
+      "reqs": [
+        "8039"
+      ]
+    },
+    {
+      "id": "8263",
+      "name": "DIRECCIÓN DE ACTORES*",
+      "level": 11,
+      "type": "E",
+      "credits": 4,
+      "reqs": [
+        "8039"
+      ]
+    },
+    {
+      "id": "8351",
+      "name": "PERIODISMO DE INVESTIGACIÓN",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550003"
+      ]
+    },
+    {
+      "id": "8975",
+      "name": "GERENCIA DE MARCA",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "8202"
+      ]
+    },
+    {
+      "id": "8977",
+      "name": "COMUNICACIÓN INTERNA",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "COM_002",
+        "550011"
+      ]
+    },
+    {
+      "id": "550027",
+      "name": "CREATIVIDAD PARA EL DESARROLLO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "COM_002",
+        "550003"
+      ]
+    },
+    {
+      "id": "COM_019",
+      "name": "MODELADO Y ANIMACIÓN 3D",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550001",
+        "8896"
+      ]
+    },
+    {
+      "id": "COM_020",
+      "name": "PODCASTING",
+      "level": 11,
+      "type": "E",
+      "credits": 4,
+      "reqs": [
+        "COM_006"
+      ]
+    },
+    {
+      "id": "8426",
+      "name": "GESTIÓN EMPRESARIAL",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "550018"
+      ]
+    },
+    {
+      "id": "8993",
+      "name": "SEMIÓTICA DE LAS PRÁCTICAS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "8972"
+      ]
+    },
+    {
+      "id": "8059",
+      "name": "PRODUCCIÓN Y REALIZACIÓN PUBLICITARIA*",
+      "level": 11,
+      "type": "E",
+      "credits": 6,
+      "reqs": [
+        "8336"
+      ]
+    },
+    {
+      "id": "8292",
+      "name": "PLANEAMIENTO PUBLICITARIO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "8897"
+      ]
+    },
+    {
+      "id": "8349",
+      "name": "IMAGEN CORPORATIVA Y REPUTACIÓN",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550011"
+      ]
+    },
+    {
+      "id": "COM_021",
+      "name": "CREATIVIDAD E INNOVACIÓN EMPRESARIAL",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550052"
+      ]
+    },
+    {
+      "id": "8348",
+      "name": "MARKETING SOCIAL",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550004"
+      ]
+    },
+    {
+      "id": "550035",
+      "name": "DISEÑO DE PROYECTOS DE DESARROLLO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550004"
+      ]
+    },
+    {
+      "id": "COM_022",
+      "name": "PERIODISMO DE DATOS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550003"
+      ]
+    },
+    {
+      "id": "550037",
+      "name": "DISEÑO EDITORIAL",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "8896"
+      ]
+    },
+    {
+      "id": "550015",
+      "name": "DISEÑO DE VIDEOJUEGOS",
+      "level": 11,
+      "type": "E",
+      "credits": 5,
+      "reqs": [
+        "COM_001"
+      ]
+    },
+    {
+      "id": "550039",
+      "name": "NARRATIVA TRANSMEDIA",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "8336"
+      ]
+    },
+    {
+      "id": "COM_023",
+      "name": "TALLER DE GUION",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "8336"
+      ]
+    },
+    {
+      "id": "550040",
+      "name": "DIRECCIÓN DE FOTOGRAFÍA*",
+      "level": 11,
+      "type": "E",
+      "credits": 4,
+      "reqs": [
+        "COM_003",
+        "8336"
+      ]
+    },
+    {
+      "id": "8342",
+      "name": "LEGISLACIÓN Y ÉTICA PROFESIONAL",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "8200"
+      ]
+    },
+    {
+      "id": "8001",
+      "name": "TALLER DE DOCUMENTAL*",
+      "level": 11,
+      "type": "E",
+      "credits": 6,
+      "reqs": [
+        "8336"
+      ]
+    },
+    {
+      "id": "8324",
+      "name": "AUDITORÍA EN COMUNICACIÓN",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550011"
+      ]
+    },
+    {
+      "id": "8326",
+      "name": "CINE PERUANO Y LATINOAMERICANO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550004",
+        "8283"
+      ]
+    },
+    {
+      "id": "8429",
+      "name": "COMUNICACIONES DE MARKETING DIGITAL",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "8202"
+      ]
+    },
+    {
+      "id": "COM_024",
+      "name": "GERENCIA DE COMUNICACIÓN CORPORATIVA",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550052"
+      ]
+    },
+    {
+      "id": "COM_025",
+      "name": "PERIODISMO DEPORTIVO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "550003"
+      ]
+    },
+    {
+      "id": "8343",
+      "name": "TALLER TRANSMEDIA*",
+      "level": 11,
+      "type": "E",
+      "credits": 6,
+      "reqs": [
+        "8336"
+      ]
+    },
+    {
+      "id": "550041",
+      "name": "PERIODISMO AUDIOVISUAL*",
+      "level": 11,
+      "type": "E",
+      "credits": 6,
+      "reqs": [
+        "8336"
+      ]
+    },
+    {
+      "id": "550042",
+      "name": "DIRECCIÓN AUDIOVISUAL*",
+      "level": 11,
+      "type": "E",
+      "credits": 4,
+      "reqs": [
+        "8336"
+      ]
+    },
+    {
+      "id": "COM_026",
+      "name": "PROYECTOS DE ANIMACIÓN",
+      "level": 11,
+      "type": "E",
+      "credits": 5,
+      "reqs": [
+        "COM_010"
+      ]
+    },
+    {
+      "id": "550044",
+      "name": "IDENTIDAD VISUAL",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "8896"
+      ]
+    },
+    {
+      "id": "COM_027",
+      "name": "GESTIÓN Y PRODUCCIÓN DEL DISEÑO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "8896"
+      ]
+    },
+    {
+      "id": "550047",
+      "name": "TRABAJO PROFESIONAL II**",
+      "level": 11,
+      "type": "E",
+      "credits": 5,
+      "reqs": []
+    },
+    {
+      "id": "8101",
+      "name": "DISEÑO Y EJECUCIÓN DE CAMPAÑAS PUBLICITARIAS*",
+      "level": 11,
+      "type": "E",
+      "credits": 6,
+      "reqs": [
+        "550052"
+      ]
+    },
+    {
+      "id": "COM_028",
+      "name": "EMPRENDIMIENTOS SOCIALES",
+      "level": 11,
+      "type": "E",
+      "credits": 4,
+      "reqs": [
+        "550004"
+      ]
+    },
+    {
+      "id": "550049",
+      "name": "LABORATORIO DE PROYECTOS INFORMATIVOS",
+      "level": 11,
+      "type": "E",
+      "credits": 5,
+      "reqs": [
+        "COM_022"
+      ]
+    },
+    {
+      "id": "COM_029",
+      "name": "PROYECTOS DE VIDEOJUEGOS",
+      "level": 11,
+      "type": "E",
+      "credits": 5,
+      "reqs": [
+        "550015"
+      ]
+    },
+    {
+      "id": "COM_030",
+      "name": "PORTAFOLIO FOTOGRÁFICO",
+      "level": 11,
+      "type": "E",
+      "credits": 4,
+      "reqs": [
+        "COM_003"
+      ]
+    },
+    {
+      "id": "COM_031",
+      "name": "TALLER DE CAMPAÑAS GRÁFICAS",
+      "level": 11,
+      "type": "E",
+      "credits": 4,
+      "reqs": [
+        "COM_017"
+      ]
+    }
+  ]
+}

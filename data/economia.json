@@ -1,0 +1,686 @@
+{
+  "name": "Economía 2026-1",
+  "courses": [
+    {
+      "id": "510003",
+      "name": "Lenguaje y Comunicación I",
+      "level": 1,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "510006",
+      "name": "Procesos Psicológicos",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510007",
+      "name": "Ética Ciudadana",
+      "level": 1,
+      "type": "O",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "510008",
+      "name": "Historia Económica Nacional Contemporánea",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6508",
+      "name": "Metodologías de Investigación",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510014",
+      "name": "Precálculo",
+      "level": 1,
+      "type": "O",
+      "credits": 5,
+      "reqs": []
+    },
+    {
+      "id": "6511",
+      "name": "Lenguaje y Comunicación II",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "510003"
+      ]
+    },
+    {
+      "id": "510010",
+      "name": "Filosofía Aplicada",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510015",
+      "name": "Fundamentos de Economía",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510011",
+      "name": "Introducción al Comercio Internacional",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6384",
+      "name": "Álgebra Lineal",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "510014"
+      ]
+    },
+    {
+      "id": "6337",
+      "name": "Cálculo I",
+      "level": 2,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "510014"
+      ]
+    },
+    {
+      "id": "530032",
+      "name": "Contabilidad para Economistas",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6337"
+      ]
+    },
+    {
+      "id": "530033",
+      "name": "Métodos Matemáticos I",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6337"
+      ]
+    },
+    {
+      "id": "1464",
+      "name": "Estadística General",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6384"
+      ]
+    },
+    {
+      "id": "530034",
+      "name": "Historia del Pensamiento Económico",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "510015"
+      ]
+    },
+    {
+      "id": "530035",
+      "name": "Herramientas Informáticas para Economistas",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6384"
+      ]
+    },
+    {
+      "id": "530066",
+      "name": "Introducción a la Microeconomía",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "510015",
+        "6337"
+      ]
+    },
+    {
+      "id": "530002",
+      "name": "Teoría Microeconómica I",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "530033",
+        "530066"
+      ]
+    },
+    {
+      "id": "1462",
+      "name": "Estadística Aplicada I",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "1464"
+      ]
+    },
+    {
+      "id": "3256",
+      "name": "Teoría Macroeconómica I",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "530033",
+        "530066"
+      ]
+    },
+    {
+      "id": "530036",
+      "name": "Métodos Matemáticos II",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "530033"
+      ]
+    },
+    {
+      "id": "530037",
+      "name": "Ciencia de Datos",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "530035"
+      ]
+    },
+    {
+      "id": "530038",
+      "name": "Historia de la Economía Peruana",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "530034"
+      ]
+    },
+    {
+      "id": "530039",
+      "name": "Teoría Microeconómica II",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "530002"
+      ]
+    },
+    {
+      "id": "530004",
+      "name": "Estadística Aplicada II",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "530037",
+        "1462"
+      ]
+    },
+    {
+      "id": "530040",
+      "name": "Teoría Macroeconómica II",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "530038",
+        "3256"
+      ]
+    },
+    {
+      "id": "530041",
+      "name": "Métodos Matemáticos III",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "530036"
+      ]
+    },
+    {
+      "id": "530042",
+      "name": "Matemáticas Financieras y Actuariales",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "530036",
+        "530032"
+      ]
+    },
+    {
+      "id": "530043",
+      "name": "Análisis Financiero",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "530042"
+      ]
+    },
+    {
+      "id": "530006",
+      "name": "Economía Internacional",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "530039"
+      ]
+    },
+    {
+      "id": "530044",
+      "name": "Teoría Macroeconómica III",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "530040"
+      ]
+    },
+    {
+      "id": "530045",
+      "name": "Métodos Matemáticos IV",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "530041"
+      ]
+    },
+    {
+      "id": "530008",
+      "name": "Teoría de Juegos",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "530039"
+      ]
+    },
+    {
+      "id": "3304",
+      "name": "Econometría I",
+      "level": 6,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "530041",
+        "530004"
+      ]
+    },
+    {
+      "id": "530046",
+      "name": "Economía Financiera I",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "530043"
+      ]
+    },
+    {
+      "id": "530010",
+      "name": "Organización Industrial",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "530006",
+        "530008"
+      ]
+    },
+    {
+      "id": "530011",
+      "name": "Teoría y Política Monetaria",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "530044"
+      ]
+    },
+    {
+      "id": "530047",
+      "name": "Economía Peruana Sectorial",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "530044"
+      ]
+    },
+    {
+      "id": "530048",
+      "name": "Teoría Bancaria",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "530008"
+      ]
+    },
+    {
+      "id": "3185",
+      "name": "Econometría II",
+      "level": 7,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "530045",
+        "3304"
+      ]
+    },
+    {
+      "id": "530049",
+      "name": "Evaluación Económica de Políticas",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "3185"
+      ]
+    },
+    {
+      "id": "530050",
+      "name": "Economía de la Elección Pública",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "530011"
+      ]
+    },
+    {
+      "id": "530051",
+      "name": "Crecimiento y Desarrollo Económico",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "530011"
+      ]
+    },
+    {
+      "id": "530052",
+      "name": "Mercado de Capitales",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "530046"
+      ]
+    },
+    {
+      "id": "530053",
+      "name": "Tópicos Avanzados en Economía y Finanzas",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "3185"
+      ]
+    },
+    {
+      "id": "530054",
+      "name": "Economía Financiera II",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "530053",
+        "530046"
+      ]
+    },
+    {
+      "id": "530021",
+      "name": "Política Económica",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "530050"
+      ]
+    },
+    {
+      "id": "530058",
+      "name": "Economía Financiera Aplicada",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "530054"
+      ]
+    },
+    {
+      "id": "530059",
+      "name": "Ética para Economistas",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "530050"
+      ]
+    },
+    {
+      "id": "530060",
+      "name": "Evaluación Privada de Proyectos",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "530054"
+      ]
+    },
+    {
+      "id": "530063",
+      "name": "Tópicos en Investigación Económica",
+      "level": 10,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "530021"
+      ]
+    },
+    {
+      "id": "4220",
+      "name": "Economía del Comportamiento y Experimental",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "530008"
+      ]
+    },
+    {
+      "id": "530056",
+      "name": "Métodos No Paramétricos",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "3185"
+      ]
+    },
+    {
+      "id": "530055",
+      "name": "Economía Ambiental y de los Recursos Naturales",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "530047"
+      ]
+    },
+    {
+      "id": "3274",
+      "name": "Regulación",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "530010"
+      ]
+    },
+    {
+      "id": "2123",
+      "name": "Gestión del Riesgo",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "530046"
+      ]
+    },
+    {
+      "id": "530061",
+      "name": "Economía y Finanzas para Programas de Extensión",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "530051"
+      ]
+    },
+    {
+      "id": "530019",
+      "name": "Econometría Aplicada a las Finanzas",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "530053",
+        "530054"
+      ]
+    },
+    {
+      "id": "3276",
+      "name": "Herramientas Informáticas para las Finanzas",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "530052"
+      ]
+    },
+    {
+      "id": "3319",
+      "name": "Gestión de Inversiones I",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "530054"
+      ]
+    },
+    {
+      "id": "530062",
+      "name": "Teoría de Juegos Cooperativos",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "530053"
+      ]
+    },
+    {
+      "id": "530064",
+      "name": "Ciencia de Datos Aplicada",
+      "level": 11,
+      "type": "E",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "3321",
+      "name": "Gestión de Inversiones II",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "3319"
+      ]
+    },
+    {
+      "id": "3178",
+      "name": "Banca de Inversiones",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "530058"
+      ]
+    },
+    {
+      "id": "3254",
+      "name": "Instrumentos Financieros",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "530058"
+      ]
+    },
+    {
+      "id": "530057",
+      "name": "Tópicos Especiales en Economía Social y Pública",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "530021"
+      ]
+    },
+    {
+      "id": "530065",
+      "name": "Evaluación Social y Pública de Proyectos",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "530060"
+      ]
+    },
+    {
+      "id": "530030",
+      "name": "Ética para las Finanzas",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "530059"
+      ]
+    }
+  ]
+}

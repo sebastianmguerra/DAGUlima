@@ -1,0 +1,661 @@
+{
+  "name": "Mecatronica",
+  "courses": [
+    {
+      "id": "510003",
+      "name": "Lenguaje y Comunicación I",
+      "level": 1,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "510005",
+      "name": "Introducción a la Ingeniería",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6505",
+      "name": "Desarrollo Personal y Social",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6508",
+      "name": "Metodologías de la Investigación",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510004",
+      "name": "Ética Cívica",
+      "level": 1,
+      "type": "O",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "6382",
+      "name": "Matemática Básica",
+      "level": 1,
+      "type": "O",
+      "credits": 5,
+      "reqs": []
+    },
+    {
+      "id": "6511",
+      "name": "Lenguaje y Comunicación II",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "510003"
+      ]
+    },
+    {
+      "id": "6512",
+      "name": "Procesos Sociales y Políticos",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6384",
+      "name": "Álgebra Lineal",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "6382"
+      ]
+    },
+    {
+      "id": "6510",
+      "name": "Economía y Empresa",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6513",
+      "name": "Temas de Filosofía",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6503",
+      "name": "Cálculo I",
+      "level": 2,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "6382"
+      ]
+    },
+    {
+      "id": "560040",
+      "name": "Inteligencia Artificial Aplicada",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "1459",
+      "name": "Cálculo II",
+      "level": 3,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "6503"
+      ]
+    },
+    {
+      "id": "MEC_001",
+      "name": "Circuitos Digitales",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6384"
+      ]
+    },
+    {
+      "id": "1472",
+      "name": "Física I",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6503"
+      ]
+    },
+    {
+      "id": "560048",
+      "name": "Sistemas Organizacionales / Organizational Systems",
+      "level": 3,
+      "type": "O",
+      "credits": 2,
+      "reqs": [
+        "6510"
+      ]
+    },
+    {
+      "id": "MEC_002",
+      "name": "Dibujo Mecánico",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6384"
+      ]
+    },
+    {
+      "id": "710051",
+      "name": "Ecuaciones Diferenciales",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "1459"
+      ]
+    },
+    {
+      "id": "560046",
+      "name": "Estadística Y Probabilidad",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "1459"
+      ]
+    },
+    {
+      "id": "MEC_003",
+      "name": "Circuitos Eléctricos",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "MEC_001"
+      ]
+    },
+    {
+      "id": "MEC_004",
+      "name": "Física II",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "1472"
+      ]
+    },
+    {
+      "id": "MEC_005",
+      "name": "Fundamentos De Máquinas Y Mecanismos",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "MEC_002"
+      ]
+    },
+    {
+      "id": "5643",
+      "name": "Química General",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "MEC_006",
+      "name": "Análisis de Señales y Sistemas",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "MEC_013"
+      ]
+    },
+    {
+      "id": "MEC_007",
+      "name": "Tecnología de Materiales e Innovación",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "MEC_017"
+      ]
+    },
+    {
+      "id": "MEC_008",
+      "name": "Control de Sistemas Dinámicos I",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "MEC_013"
+      ]
+    },
+    {
+      "id": "MEC_009",
+      "name": "Ingeniería de Fluidos y Calor",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "MEC_016"
+      ]
+    },
+    {
+      "id": "MEC_010",
+      "name": "Desarrollo de Competencias Gerenciales",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_011",
+      "name": "Microcontroladores",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "MEC_015"
+      ]
+    },
+    {
+      "id": "MEC_012",
+      "name": "Sensores y Actuadores Inteligentes",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "MEC_003"
+      ]
+    },
+    {
+      "id": "MEC_013",
+      "name": "Análisis Complejo y Transformadas",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "710051"
+      ]
+    },
+    {
+      "id": "MEC_014",
+      "name": "Costos y Presupuestos",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560048"
+      ]
+    },
+    {
+      "id": "MEC_015",
+      "name": "Programación de Computadoras",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560040"
+      ]
+    },
+    {
+      "id": "MEC_016",
+      "name": "Mecánica Aplicada",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "MEC_004"
+      ]
+    },
+    {
+      "id": "MEC_017",
+      "name": "Ingeniería de Resistencia de Materiales",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "MEC_004"
+      ]
+    },
+    {
+      "id": "MEC_018",
+      "name": "Circuitos Electrónicos",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "MEC_003"
+      ]
+    },
+    {
+      "id": "MEC_019",
+      "name": "Diseño y Manufactura Asistida Por Computador",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_020",
+      "name": "Máquinas Eléctricas",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_021",
+      "name": "Aprendizaje de Máquinas / Machine Learning",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_022",
+      "name": "Sistemas Embebidos e Iot Industrial",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "MEC_023",
+      "name": "Control de Sistemas Dinámicos Ii",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "MEC_008"
+      ]
+    },
+    {
+      "id": "MEC_024",
+      "name": "Formulación y Evaluación de Proyectos",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_025",
+      "name": "Electivo I",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_026",
+      "name": "Diseño de Sistemas Mecatrónicos",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "MEC_027",
+      "name": "Proyecto de Investigación",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "MEC_028",
+      "name": "Control de Procesos Industriales",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_029",
+      "name": "Manufactura Integrada por Computadora",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "MEC_030",
+      "name": "Procesamiento Digital de Imágenes",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "MEC_031",
+      "name": "Electivo II",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_032",
+      "name": "Diseño de Plantas Industriales",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "MEC_033",
+      "name": "Proyecto Integrador de Mecatrónica I",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "MEC_027"
+      ]
+    },
+    {
+      "id": "MEC_034",
+      "name": "Gestión de Proyectos",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_035",
+      "name": "Electivo III",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_036",
+      "name": "Electivo IV",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_037",
+      "name": "Sistemas Robóticos Industriales",
+      "level": 10,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_038",
+      "name": "Proyecto Integrador de Mecatrónica II",
+      "level": 10,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "MEC_033"
+      ]
+    },
+    {
+      "id": "MEC_039",
+      "name": "Electivo V",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_040",
+      "name": "Electivo VI",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_041",
+      "name": "Sistemas Neumáticos",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_042",
+      "name": "Big Data",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_043",
+      "name": "Gestión de Proyectos de Diseño",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_044",
+      "name": "Redes y Protocolos Industriales",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_045",
+      "name": "Ciber Seguridad",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_046",
+      "name": "Tecnología Industrial",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_047",
+      "name": "Sistemas Autónomos no Tripulados",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_048",
+      "name": "Diseño y Fabricación de Grippers",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_049",
+      "name": "Sistemas Scada",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_050",
+      "name": "Visión Artificial para Robótica",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_051",
+      "name": "Realidad Virtual y Aumentada",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_052",
+      "name": "Digital Twin",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_053",
+      "name": "Transformación Digital",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_054",
+      "name": "Diseño y Prototipado",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_055",
+      "name": "Tecnologías de Programación",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "MEC_056",
+      "name": "Diseño de Proyectos Sostenibles",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    }
+  ]
+}

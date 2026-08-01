@@ -1,0 +1,688 @@
+{
+  "name": "Ingeniería de Sistemas 2026-1",
+  "courses": [
+    {
+      "id": "510003",
+      "name": "LENGUAJE Y COMUNICACIÓN I",
+      "level": 1,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "510005",
+      "name": "INTRODUCCIÓN A LA INGENIERÍA",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510006",
+      "name": "PROCESOS PSICOLÓGICOS",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6508",
+      "name": "METODOLOGÍAS DE INVESTIGACIÓN",
+      "level": 1,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510007",
+      "name": "ÉTICA CIUDADANA",
+      "level": 1,
+      "type": "O",
+      "credits": 2,
+      "reqs": []
+    },
+    {
+      "id": "510014",
+      "name": "PRECÁLCULO",
+      "level": 1,
+      "type": "O",
+      "credits": 5,
+      "reqs": []
+    },
+    {
+      "id": "6511",
+      "name": "LENGUAJE Y COMUNICACIÓN II",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "510003"
+      ]
+    },
+    {
+      "id": "510011",
+      "name": "INTRODUCCIÓN AL COMERCIO INTERNACIONAL",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6384",
+      "name": "ÁLGEBRA LINEAL",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "510014"
+      ]
+    },
+    {
+      "id": "510015",
+      "name": "FUNDAMENTOS DE ECONOMÍA",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "510010",
+      "name": "FILOSOFÍA APLICADA",
+      "level": 2,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "6503",
+      "name": "CÁLCULO I",
+      "level": 2,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "510014"
+      ]
+    },
+    {
+      "id": "560042",
+      "name": "CÁLCULO II",
+      "level": 3,
+      "type": "O",
+      "credits": 5,
+      "reqs": [
+        "6503"
+      ]
+    },
+    {
+      "id": "560038",
+      "name": "SISTEMAS ORGANIZACIONALES / ORGANIZATIONAL SYSTEMS",
+      "level": 3,
+      "type": "O",
+      "credits": 2,
+      "reqs": [
+        "510015"
+      ]
+    },
+    {
+      "id": "650053",
+      "name": "FÍSICA PARA SISTEMAS",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "650054",
+      "name": "INTRODUCCIÓN A LA PROGRAMACIÓN",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "560040",
+      "name": "INTELIGENCIA ARTIFICIAL APLICADA",
+      "level": 3,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "650055",
+      "name": "ESTRUCTURAS DISCRETAS DE COMPUTACIÓN",
+      "level": 3,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "560047",
+      "name": "CÁLCULO III",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560042"
+      ]
+    },
+    {
+      "id": "560046",
+      "name": "ESTADÍSTICA Y PROBABILIDAD",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "6503"
+      ]
+    },
+    {
+      "id": "650008",
+      "name": "MODELACIÓN E INTEGRACIÓN DE SISTEMAS",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560040"
+      ]
+    },
+    {
+      "id": "650056",
+      "name": "ARQUITECTURA DE COMPUTADORAS",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "650053"
+      ]
+    },
+    {
+      "id": "560043",
+      "name": "COSTEO DE OPERACIONES",
+      "level": 4,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560038"
+      ]
+    },
+    {
+      "id": "650086",
+      "name": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+      "level": 4,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "650055",
+        "650054"
+      ]
+    },
+    {
+      "id": "560048",
+      "name": "INVESTIGACIÓN DE OPERACIONES I",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "560047"
+      ]
+    },
+    {
+      "id": "650057",
+      "name": "SISTEMAS OPERATIVOS",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "650056"
+      ]
+    },
+    {
+      "id": "650058",
+      "name": "ESTADÍSTICA APLICADA",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "560046"
+      ]
+    },
+    {
+      "id": "650009",
+      "name": "DESARROLLO DE COMPETENCIAS GERENCIALES",
+      "level": 5,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560038"
+      ]
+    },
+    {
+      "id": "650059",
+      "name": "ESTRUCTURAS DE DATOS I",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "650086"
+      ]
+    },
+    {
+      "id": "650060",
+      "name": "MODELAMIENTO DE BASE DE DATOS",
+      "level": 5,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "650086"
+      ]
+    },
+    {
+      "id": "650010",
+      "name": "INGENIERÍA DE PROCESOS DE NEGOCIO",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560048"
+      ]
+    },
+    {
+      "id": "650015",
+      "name": "REDES DE COMPUTADORAS",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "650057"
+      ]
+    },
+    {
+      "id": "650018",
+      "name": "SIMULACIÓN",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "650008"
+      ]
+    },
+    {
+      "id": "650061",
+      "name": "ESTRUCTURAS DE DATOS II",
+      "level": 6,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "650059"
+      ]
+    },
+    {
+      "id": "650022",
+      "name": "PROGRAMACIÓN WEB",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "650059"
+      ]
+    },
+    {
+      "id": "650016",
+      "name": "GESTIÓN FINANCIERA",
+      "level": 6,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "560043"
+      ]
+    },
+    {
+      "id": "650062",
+      "name": "SISTEMAS DE INTELIGENCIA EMPRESARIAL",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "650060"
+      ]
+    },
+    {
+      "id": "650019",
+      "name": "GESTIÓN DE OPERACIONES",
+      "level": 7,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "650010"
+      ]
+    },
+    {
+      "id": "650063",
+      "name": "INGENIERÍA DE SOFTWARE I",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "650060"
+      ]
+    },
+    {
+      "id": "650064",
+      "name": "APRENDIZAJE DE MÁQUINA / MACHINE LEARNING",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "650058"
+      ]
+    },
+    {
+      "id": "650065",
+      "name": "CIBERSEGURIDAD / CYBERSECURITY",
+      "level": 7,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "650015"
+      ]
+    },
+    {
+      "id": "650066",
+      "name": "PROPUESTA DE INVESTIGACIÓN",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "650018"
+      ]
+    },
+    {
+      "id": "650028",
+      "name": "SISTEMAS ERP",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "650019"
+      ]
+    },
+    {
+      "id": "650042",
+      "name": "AUDITORÍA Y CONTROL DE SISTEMAS",
+      "level": 8,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "650016"
+      ]
+    },
+    {
+      "id": "1327",
+      "name": "INGENIERÍA DE SOFTWARE II",
+      "level": 8,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "650063"
+      ]
+    },
+    {
+      "id": "650033",
+      "name": "PLANEAMIENTO ESTRATÉGICO",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "5674",
+      "name": "GESTIÓN DE PROYECTOS",
+      "level": 9,
+      "type": "O",
+      "credits": 3,
+      "reqs": [
+        "650042"
+      ]
+    },
+    {
+      "id": "650035",
+      "name": "SEMINARIO DE INVESTIGACIÓN I",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "650066"
+      ]
+    },
+    {
+      "id": "650067",
+      "name": "SEGURIDAD DE SISTEMAS",
+      "level": 9,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "650065"
+      ]
+    },
+    {
+      "id": "650040",
+      "name": "SEMINARIO DE INVESTIGACIÓN II",
+      "level": 10,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "650035"
+      ]
+    },
+    {
+      "id": "650068",
+      "name": "GESTIÓN DE SERVICIOS DIGITALES",
+      "level": 10,
+      "type": "O",
+      "credits": 4,
+      "reqs": []
+    },
+    {
+      "id": "650069",
+      "name": "PROYECTO INTEGRADOR DE SISTEMAS",
+      "level": 10,
+      "type": "O",
+      "credits": 4,
+      "reqs": [
+        "5674"
+      ]
+    },
+    {
+      "id": "650070",
+      "name": "PARADIGMAS DE PROGRAMACIÓN",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "650012",
+      "name": "INTERNET DE LAS COSAS / INTERNET OF THINGS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "650071",
+      "name": "GESTIÓN DE BASE DE DATOS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "650074",
+      "name": "INGENIERÍA DEL CONOCIMIENTO",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "650077",
+      "name": "SISTEMAS DISTRIBUIDOS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "650078",
+      "name": "ANALÍTICA DE NEGOCIOS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "650025",
+      "name": "COMPUTACIÓN EN LA NUBE",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "650080",
+      "name": "INNOVACIÓN DIGITAL",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "650081",
+      "name": "PROYECTO DE VIDEOJUEGOS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "650011",
+      "name": "INTERACCIÓN HUMANO COMPUTADORA / HUMAN COMPUTER INTERACTION",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "650083",
+      "name": "ARQUITECTURA DE TECNOLOGÍAS DE LA INFORMACIÓN",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "650084",
+      "name": "DEVOPS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "650085",
+      "name": "ARQUITECTURA DE SOFTWARE",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "520074",
+      "name": "SEGURIDAD, SALUD OCUPACIONAL Y BIENESTAR ORGANIZACIONAL",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": []
+    },
+    {
+      "id": "650072",
+      "name": "ANÁLISIS Y DISEÑO DE ALGORITMOS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "650061"
+      ]
+    },
+    {
+      "id": "650073",
+      "name": "REDES AVANZADAS",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "650015"
+      ]
+    },
+    {
+      "id": "650075",
+      "name": "DEEP LEARNING",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "650064"
+      ]
+    },
+    {
+      "id": "650030",
+      "name": "PROGRAMACIÓN MÓVIL",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "650022"
+      ]
+    },
+    {
+      "id": "650076",
+      "name": "TÓPICOS AVANZADOS EN CIBERSEGURIDAD",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "650065"
+      ]
+    },
+    {
+      "id": "650044",
+      "name": "ANALÍTICA CON BIG DATA",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "650062"
+      ]
+    },
+    {
+      "id": "650079",
+      "name": "PROYECTO DE DESARROLLO DE SOFTWARE",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "1327"
+      ]
+    },
+    {
+      "id": "650082",
+      "name": "ARQUITECTURA EMPRESARIAL",
+      "level": 11,
+      "type": "E",
+      "credits": 3,
+      "reqs": [
+        "650033"
+      ]
+    }
+  ]
+}
