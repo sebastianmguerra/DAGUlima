@@ -18,3 +18,7 @@ __pycache__/
 # Archivos temporales o de prueba
 scratch/
 *.log
+
+# Documentos y extracciones
+*.pdf
+*.txt
