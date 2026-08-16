@@ -21,6 +21,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const btnElectivos = document.getElementById('btn-electivos');
   const btnLayout = document.getElementById('btn-layout');
   const careerSelector = document.getElementById('career-selector');
+  const welcomeOverlay = document.getElementById('welcome-overlay');
+  const welcomeCareerSelector = document.getElementById('welcome-career-selector');
 
   // Stats Elements
   const statsObligatorios = document.querySelectorAll('.global-stat-val')[0];
@@ -34,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let nodesLocked = true;
   let showElectivos = true;
   let isHierarchical = true; // Default to cycle grid
-  
+
   let currentCoursesData = [];
   let coursesMap = {};
   let postreqsMap = {};
@@ -64,27 +66,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function getBaseBorderColor(course) {
     if (course.type === 'E') return '#f59e0b';   // amber — electivo
-    if (course.level <= 2)   return '#38bdf8';   // cyan — estudios generales
+    if (course.level <= 2) return '#38bdf8';   // cyan — estudios generales
     return '#a855f7';                            // purple — carrera obligatoria
   }
 
   function updateGlobalStats() {
     const obligatorios = currentCoursesData.filter(c => c.type !== 'E');
     const electivos = currentCoursesData.filter(c => c.type === 'E');
-    
-    let totalCreds = obligatorios.reduce((acc, c) => acc + c.credits, 0);
-    let electivosCreds = electivos.reduce((acc, c) => acc + c.credits, 0);
 
-    statsObligatorios.textContent = obligatorios.length;
-    statsElectivos.textContent = electivos.length;
-    statsCreditos.textContent = `${totalCreds} + El.`;
+    let totalCreds = obligatorios.reduce((acc, c) => acc + c.credits, 0);
+
+    if (statsObligatorios) statsObligatorios.textContent = obligatorios.length;
+    if (statsElectivos) statsElectivos.textContent = electivos.length;
+    if (statsCreditos) statsCreditos.textContent = `${totalCreds} + El.`;
   }
 
   function getOptions() {
     return {
-      interaction: { 
-        hover: true, 
-        selectConnectedEdges: false, 
+      interaction: {
+        hover: true,
+        selectConnectedEdges: false,
         tooltipDelay: 200,
         dragNodes: !nodesLocked,
         dragView: true,
@@ -110,13 +111,13 @@ document.addEventListener('DOMContentLoaded', () => {
           nodeDistance: 120,
           damping: 0.09
         },
-        barnesHut: { 
-          gravitationalConstant: -1200, 
-          centralGravity: 0.1, 
-          springLength: 120, 
-          springConstant: 0.04, 
-          damping: 0.09, 
-          avoidOverlap: 1 
+        barnesHut: {
+          gravitationalConstant: -1200,
+          centralGravity: 0.1,
+          springLength: 120,
+          springConstant: 0.04,
+          damping: 0.09,
+          avoidOverlap: 1
         },
         stabilization: { enabled: false }
       }
@@ -126,139 +127,178 @@ document.addEventListener('DOMContentLoaded', () => {
   let isLoadingCareer = false;
 
   async function loadCareer(careerKey) {
+    if (!careerKey) return;
     if (isLoadingCareer) return;
     isLoadingCareer = true;
 
-    // Show a loading state on the main title
-    const mainTitle = document.getElementById('main-title');
-    if (mainTitle) mainTitle.textContent = 'Cargando...';
+    // Sync selectors
+    if (careerSelector && careerSelector.value !== careerKey) {
+      careerSelector.value = careerKey;
+    }
+    if (welcomeCareerSelector && welcomeCareerSelector.value !== careerKey) {
+      welcomeCareerSelector.value = careerKey;
+    }
+    if (welcomeOverlay) {
+      welcomeOverlay.classList.add('hidden');
+    }
 
-    let careerObj;
+    const mainTitle = document.getElementById('main-title');
+    const mainSubtitle = document.getElementById('main-subtitle');
+    if (mainTitle) mainTitle.textContent = 'Cargando malla...';
+
     try {
       const response = await fetch(`data/${careerKey}.json`);
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      careerObj = await response.json();
+      const careerObj = await response.json();
+
+      // Normalize course list supporting courses, cursos, nodos, or raw array
+      let rawCourses = [];
+      if (Array.isArray(careerObj)) {
+        rawCourses = careerObj;
+      } else if (Array.isArray(careerObj.courses)) {
+        rawCourses = careerObj.courses;
+      } else if (Array.isArray(careerObj.cursos)) {
+        rawCourses = careerObj.cursos;
+      } else if (careerObj.nodos && typeof careerObj.nodos === 'object') {
+        rawCourses = Object.entries(careerObj.nodos).map(([id, n]) => ({
+          id: String(id),
+          name: n.nombre || n.name || '',
+          level: parseInt(n.nivel !== undefined ? n.nivel : (n.level || 0), 10) || 0,
+          type: (n.tipo || n.type || 'O').toUpperCase(),
+          credits: parseInt(n.creditos !== undefined ? n.creditos : (n.credits || 0), 10) || 0,
+          reqs: (n.requisitos || n.reqs || []).map(r => String(r))
+        }));
+      }
+
+      currentCoursesData = rawCourses.map(c => ({
+        id: String(c.id || ''),
+        name: String(c.name || c.nombre || ''),
+        level: parseInt(c.level !== undefined ? c.level : (c.nivel || 0), 10) || 0,
+        type: String(c.type || c.tipo || 'O').toUpperCase(),
+        credits: parseInt(c.credits !== undefined ? c.credits : (c.creditos || 0), 10) || 0,
+        reqs: Array.isArray(c.reqs || c.requisitos) ? (c.reqs || c.requisitos).map(r => String(r)) : []
+      })).filter(c => c.id && c.name);
+
+      if (network) {
+        network.destroy();
+        network = null;
+      }
+      nodesDataSet.clear();
+      edgesDataSet.clear();
+      activeLevelFilter = 'all';
+      activeSearchQuery = '';
+      if (searchInput) searchInput.value = '';
+      levelBtns.forEach(b => b.classList.remove('active'));
+      const allBtn = document.querySelector('.level-btn[data-level="all"]');
+      if (allBtn) allBtn.classList.add('active');
+      hideCourseDetails();
+
+      const careerName = careerObj.name || (careerObj.metadata && careerObj.metadata.carrera) || (careerSelector.options[careerSelector.selectedIndex] ? careerSelector.options[careerSelector.selectedIndex].text : careerKey);
+      if (mainTitle) mainTitle.textContent = `Grafo de Correlaciones Curriculares - ${careerName}`;
+      if (mainSubtitle) mainSubtitle.textContent = 'Los nodos están ordenados por columnas representando cada ciclo académico del plan respectivo';
+
+      coursesMap = {};
+      postreqsMap = {};
+      currentCoursesData.forEach(c => {
+        coursesMap[c.id] = c;
+        postreqsMap[c.id] = [];
+      });
+
+      currentCoursesData.forEach(c => {
+        c.reqs.forEach(reqId => {
+          if (postreqsMap[reqId]) {
+            postreqsMap[reqId].push(c.id);
+          }
+        });
+      });
+
+      let electivesCount = 0;
+      const MAX_ELECTIVES_PER_COLUMN = 12;
+
+      initialNodes = currentCoursesData.map(c => {
+        let level = c.level;
+
+        // Split electives into multiple columns (levels) so they aren't one huge column
+        if (c.type === 'E') {
+          const columnOffset = Math.floor(electivesCount / MAX_ELECTIVES_PER_COLUMN);
+          level = 11 + columnOffset;
+          electivesCount++;
+        }
+
+        const baseBorderColor = getBaseBorderColor(c);
+
+        return {
+          id: c.id,
+          label: wrapText(c.name, 25),
+          title: c.name,
+          level: level, // Used by hierarchical layout
+          shape: 'box',
+          hidden: false,
+          margin: { top: 12, bottom: 12, left: 16, right: 16 },
+          color: {
+            background: '#0f172a',
+            border: baseBorderColor,
+            highlight: { background: '#1e293b', border: '#00f0ff' },
+            hover: { background: '#1e293b', border: '#00f0ff' }
+          },
+          font: { color: '#f8fafc', face: 'Plus Jakarta Sans', size: 11, bold: { color: '#f8fafc', size: 11 } },
+          borderWidth: 2,
+          borderWidthSelected: 3,
+          shapeProperties: { borderRadius: 12 }
+        };
+      });
+
+      initialEdges = [];
+      currentCoursesData.forEach(c => {
+        c.reqs.forEach(reqId => {
+          if (!coursesMap[reqId]) return;
+
+          const isElectivoEdge = c.type === 'E';
+          initialEdges.push({
+            id: `${reqId}-${c.id}`,
+            from: reqId,
+            to: c.id,
+            hidden: false,
+            arrows: { to: { enabled: true, scaleFactor: 0.8 } },
+            color: {
+              color: isElectivoEdge ? 'rgba(245, 158, 11, 0.4)' : 'rgba(148, 163, 184, 0.35)',
+              highlight: '#00f0ff',
+              hover: '#00f0ff',
+              inherit: false
+            },
+            dashes: isElectivoEdge,
+            width: 1.5,
+            selectionWidth: 3,
+            smooth: { type: 'cubicBezier', forceDirection: 'horizontal', roundness: 0.5 }
+          });
+        });
+      });
+
+      nodesDataSet.add(initialNodes);
+      edgesDataSet.add(initialEdges);
+
+      updateGlobalStats();
+
+      network = new vis.Network(container, { nodes: nodesDataSet, edges: edgesDataSet }, getOptions());
+
+      network.on('selectNode', (params) => {
+        const selectedId = params.nodes[0];
+        highlightDependencies(selectedId);
+        showCourseDetails(selectedId);
+      });
+
+      network.on('deselectNode', () => {
+        resetHighlight();
+        hideCourseDetails();
+      });
+
+      applyFilters();
     } catch (e) {
       console.error(`Failed to load data/${careerKey}.json:`, e);
       if (mainTitle) mainTitle.textContent = 'Error al cargar la carrera';
+    } finally {
       isLoadingCareer = false;
-      return;
     }
-
-    if (network) {
-      network.destroy();
-      network = null;
-    }
-    nodesDataSet.clear();
-    edgesDataSet.clear();
-    activeLevelFilter = 'all';
-    activeSearchQuery = '';
-    searchInput.value = '';
-    levelBtns.forEach(b => b.classList.remove('active'));
-    document.querySelector('.level-btn[data-level="all"]').classList.add('active');
-    hideCourseDetails();
-
-    if (mainTitle) mainTitle.textContent = 'Grafo de Correlaciones Curriculares';
-
-    currentCoursesData = careerObj.courses;
-    
-    coursesMap = {};
-    postreqsMap = {};
-    currentCoursesData.forEach(c => {
-      coursesMap[c.id] = c;
-      postreqsMap[c.id] = [];
-    });
-    
-    currentCoursesData.forEach(c => {
-      c.reqs.forEach(reqId => {
-        if (postreqsMap[reqId]) {
-          postreqsMap[reqId].push(c.id);
-        }
-      });
-    });
-
-    let electivesCount = 0;
-    const MAX_ELECTIVES_PER_COLUMN = 12;
-
-    initialNodes = currentCoursesData.map(c => {
-      let level = c.level;
-      
-      // Split electives into multiple columns (levels) so they aren't one huge column
-      if (c.type === 'E') {
-        const columnOffset = Math.floor(electivesCount / MAX_ELECTIVES_PER_COLUMN);
-        level = 11 + columnOffset;
-        electivesCount++;
-      }
-
-      const baseBorderColor = getBaseBorderColor(c);
-
-      return {
-        id: c.id,
-        label: wrapText(c.name, 25),
-        title: c.name,
-        level: level, // Used by hierarchical layout
-        shape: 'box',
-        hidden: false,
-        margin: { top: 12, bottom: 12, left: 16, right: 16 },
-        color: {
-          background: '#0f172a',
-          border: baseBorderColor,
-          highlight: { background: '#1e293b', border: '#00f0ff' },
-          hover: { background: '#1e293b', border: '#00f0ff' }
-        },
-        font: { color: '#f8fafc', face: 'Plus Jakarta Sans', size: 11, bold: { color: '#f8fafc', size: 11 } },
-        borderWidth: 2,
-        borderWidthSelected: 3,
-        shapeProperties: { borderRadius: 12 }
-      };
-    });
-
-    initialEdges = [];
-    currentCoursesData.forEach(c => {
-      c.reqs.forEach(reqId => {
-        if (!coursesMap[reqId]) return;
-        
-        const isElectivoEdge = c.type === 'E';
-        initialEdges.push({
-          id: `${reqId}-${c.id}`,
-          from: reqId,
-          to: c.id,
-          hidden: false,
-          arrows: { to: { enabled: true, scaleFactor: 0.8 } },
-          color: {
-            color: isElectivoEdge ? 'rgba(245, 158, 11, 0.4)' : 'rgba(148, 163, 184, 0.35)',
-            highlight: '#00f0ff',
-            hover: '#00f0ff',
-            inherit: false
-          },
-          dashes: isElectivoEdge,
-          width: 1.5,
-          selectionWidth: 3,
-          smooth: { type: 'cubicBezier', forceDirection: 'horizontal', roundness: 0.5 }
-        });
-      });
-    });
-
-    nodesDataSet.add(initialNodes);
-    edgesDataSet.add(initialEdges);
-
-    updateGlobalStats();
-
-    network = new vis.Network(container, { nodes: nodesDataSet, edges: edgesDataSet }, getOptions());
-
-    network.on('selectNode', (params) => {
-      const selectedId = params.nodes[0];
-      highlightDependencies(selectedId);
-      showCourseDetails(selectedId);
-    });
-
-    network.on('deselectNode', () => {
-      resetHighlight();
-      hideCourseDetails();
-    });
-    
-    applyFilters();
-    isLoadingCareer = false;
   }
 
   // --- Filtering & Selection ---
@@ -391,7 +431,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     detailTitle.textContent = course.name;
     detailCode.textContent = `COD: ${course.id}`;
-    
+
     const isElectivo = course.type === 'E';
     detailLevel.textContent = isElectivo ? 'Electivo' : `Nivel ${course.level}`;
     if (isElectivo) {
@@ -459,9 +499,21 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // --- Controls & Events ---
-  careerSelector.addEventListener('change', (e) => {
-    loadCareer(e.target.value);
-  });
+  if (careerSelector) {
+    careerSelector.addEventListener('change', (e) => {
+      if (e.target.value) {
+        loadCareer(e.target.value);
+      }
+    });
+  }
+
+  if (welcomeCareerSelector) {
+    welcomeCareerSelector.addEventListener('change', (e) => {
+      if (e.target.value) {
+        loadCareer(e.target.value);
+      }
+    });
+  }
 
   levelBtns.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -481,7 +533,7 @@ document.addEventListener('DOMContentLoaded', () => {
     isHierarchical = !isHierarchical;
     const layoutIcon = document.getElementById('layout-icon');
     const layoutText = document.getElementById('layout-text');
-    
+
     if (isHierarchical) {
       layoutText.textContent = 'Diseño: Ciclos';
       layoutIcon.setAttribute('data-lucide', 'layout-grid');
@@ -493,7 +545,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     lucide.createIcons();
     network.setOptions(getOptions());
-    if(isHierarchical) network.fit();
+    if (isHierarchical) network.fit();
   });
 
   btnElectivos.addEventListener('click', () => {
@@ -509,7 +561,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   btnFit.addEventListener('click', () => {
-    if(network) network.fit({ animation: { duration: 800 } });
+    if (network) network.fit({ animation: { duration: 800 } });
   });
 
   btnLock.addEventListener('click', () => {
@@ -518,7 +570,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function toggleLock(locked) {
     nodesLocked = locked;
-    if(network) network.setOptions(getOptions());
+    if (network) network.setOptions(getOptions());
     const lockIcon = document.getElementById('lock-icon');
     const lockText = document.getElementById('lock-text');
 
@@ -534,6 +586,5 @@ document.addEventListener('DOMContentLoaded', () => {
     lucide.createIcons();
   }
 
-  // Initialize Default Career
-  loadCareer('sistemas');
+  // Initial state: wait for user selection via dropdown/welcome overlay
 });

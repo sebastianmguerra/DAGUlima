@@ -23,6 +23,7 @@
           <i data-lucide="network" class="logo-icon"></i>
           <div class="header-text">
             <select id="career-selector" class="career-select">
+              <option value="" disabled selected>-- Selecciona una carrera --</option>
               <option value="administracion">Administración</option>
               <option value="arquitectura">Arquitectura</option>
               <option value="comunicacion">Comunicación</option>
@@ -112,15 +113,15 @@
         <div class="global-stats">
           <div class="global-stat">
             <span class="global-stat-label">Obligatorios</span>
-            <span class="global-stat-val">52</span>
+            <span class="global-stat-val">-</span>
           </div>
           <div class="global-stat">
             <span class="global-stat-label">Electivos</span>
-            <span class="global-stat-val">22</span>
+            <span class="global-stat-val">-</span>
           </div>
           <div class="global-stat">
             <span class="global-stat-label">Total Créditos</span>
-            <span class="global-stat-val">205</span>
+            <span class="global-stat-val">-</span>
           </div>
         </div>
       </footer>
@@ -131,7 +132,7 @@
       <div class="canvas-header">
         <div class="header-titles">
           <h2 id="main-title">Grafo de Correlaciones Curriculares</h2>
-          <p>Los nodos están ordenados por columnas representando cada ciclo académico del plan respectivo</p>
+          <p id="main-subtitle">Selecciona una carrera para visualizar su plan de estudios</p>
         </div>
         <div class="canvas-actions">
           <button class="action-btn" id="btn-layout" title="Cambiar Diseño">
@@ -149,6 +150,35 @@
         </div>
       </div>
       <div id="network-container"></div>
+
+      <!-- Welcome / Initial Selection Overlay -->
+      <div id="welcome-overlay" class="welcome-overlay">
+        <div class="welcome-card">
+          <div class="welcome-icon-wrapper">
+            <i data-lucide="network" class="welcome-icon"></i>
+          </div>
+          <h2>Plan de Estudios Interactivo</h2>
+          <p>Selecciona una carrera para visualizar su grafo de correlaciones, prerrequisitos y créditos académicos.</p>
+          <div class="welcome-select-wrapper">
+            <select id="welcome-career-selector" class="welcome-career-select">
+              <option value="" disabled selected>-- Elige una carrera para comenzar --</option>
+              <option value="administracion">Administración</option>
+              <option value="arquitectura">Arquitectura</option>
+              <option value="comunicacion">Comunicación</option>
+              <option value="contabilidad">Contabilidad y Finanzas</option>
+              <option value="derecho">Derecho</option>
+              <option value="economia">Economía</option>
+              <option value="ambiental">Ingeniería Ambiental</option>
+              <option value="civil">Ingeniería Civil</option>
+              <option value="sistemas">Ingeniería de Sistemas</option>
+              <option value="industrial">Ingeniería Industrial</option>
+              <option value="mecatronica">Ingeniería Mecatrónica</option>
+              <option value="marketing">Marketing</option>
+              <option value="psicologia">Psicología</option>
+            </select>
+          </div>
+        </div>
+      </div>
       <div class="legend">
         <div class="legend-item">
           <span class="legend-color color-eg"></span>
